@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/ensan_blue"
+        tools:context=".view.activity.notification.view.NotificationActivity">
+
+         <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/forward"
+            android:rotation="180"
+             android:onClick="backPressed"
+            android:padding="@dimen/_20sdp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:fontFamily="@font/allroundgothicmedium"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_centerHorizontal="true"
+            android:textSize="@dimen/_17sdp"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:text="@string/notifications"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/_80sdp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="@drawable/white_curved_drawable">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="10"
+                android:visibility="gone"
+                android:layout_marginTop="@dimen/_20sdp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:layout_height="wrap_content"
+                    android:text="@string/clear_all"
+                    android:gravity="center"
+                    android:fontFamily="@font/kumbhsansregular"
+                    android:textColor="@color/ensan_soft_gray"
+                    android:textSize="@dimen/_12sdp"
+                    android:id="@+id/clearAllTV"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="4"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mark_all_as_read"
+                    android:gravity="center"
+                    android:fontFamily="@font/kumbhsansregular"
+                    android:textColor="@color/ensan_soft_gray"
+                    android:textSize="@dimen/_12sdp"
+                    android:id="@+id/markAllAsReadTV"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/notificationLayout"
+                android:orientation="vertical">
+
+                <com.facebook.shimmer.ShimmerFrameLayout
+                    android:id="@+id/shimmerFrameLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <!-- Adding 15 rows of placeholders -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <include layout="@layout/notification_layout_shimmer" />
+
+                        <include layout="@layout/notification_layout_shimmer" />
+
+                        <include layout="@layout/notification_layout_shimmer" />
+
+                        <include layout="@layout/notification_layout_shimmer" />
+
+                        <include layout="@layout/notification_layout_shimmer" />
+
+                        <include layout="@layout/notification_layout_shimmer" />
+
+                        <include layout="@layout/notification_layout_shimmer" />
+
+                        <include layout="@layout/notification_layout_shimmer" />
+
+                    </LinearLayout>
+
+                </com.facebook.shimmer.ShimmerFrameLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="@dimen/_10sdp"
+                    android:visibility="gone"
+                    android:id="@+id/notificationRv" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:visibility="gone"
+            android:id="@+id/no_notification_layout"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_no_notification"
+                android:padding="@dimen/_20sdp"/>
+
+
+            <TextView
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/kumbhsansregular"
+                android:gravity="center"
+                android:textSize="@dimen/_12sdp"
+                android:text="@string/no_notification_left"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:fontFamily="@font/kumbhsansbold"
+                android:gravity="center"
+                android:onClick="btnContinue"
+                android:background="@drawable/login_button"
+                android:textSize="@dimen/_13sdp"
+                android:text="@string/continue_"
+                android:textColor="@color/white"
+                android:padding="@dimen/_10sdp"
+                android:textAllCaps="true"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</layout>

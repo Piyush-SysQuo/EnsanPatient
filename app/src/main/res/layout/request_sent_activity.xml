@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".view.activity.requestsent.RequestSent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tick_update" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:fontFamily="@font/kumbhsansregular"
+            android:gravity="center"
+            android:textSize="@dimen/_13sdp"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:text="@string/in_the_next_24_hours_your_caregiver_will_review_your_nrequest_if_it_s_a_good_fit_they_will_accept_it_n_we_will_notify_you_via_email"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:fontFamily="@font/kumbhsansbold"
+            android:gravity="center"
+            android:background="@drawable/login_button"
+            android:textSize="@dimen/_13sdp"
+            android:text="@string/continue_"
+            android:textColor="@color/white"
+            android:padding="@dimen/_10sdp"
+            android:onClick="continueClick"
+            android:textAllCaps="true"/>
+
+    </LinearLayout>
+</layout>

@@ -1,0 +1,19 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="152dp"
+    android:height="152dp"
+    android:viewportWidth="152"
+    android:viewportHeight="152">
+  <path
+      android:pathData="M76,76m-76,0a76,76 0,1 1,152 0a76,76 0,1 1,-152 0"
+      android:fillColor="#d6f8e9"/>
+  <path
+      android:pathData="M100.689,47L52.371,47A10.383,10.383 0,0 0,42 57.371L42,96.092A10.383,10.383 0,0 0,52.371 106.462L100.69,106.462A10.383,10.383 0,0 0,111.061 96.092L111.061,57.371A10.383,10.383 0,0 0,100.689 47ZM106.912,82.954L91.7,82.954a6.223,6.223 0,0 1,0 -12.446L106.912,70.508L106.912,82.954ZM106.912,66.36L91.7,66.36a10.371,10.371 0,1 0,0 20.743L106.912,87.103L106.912,96.092a6.23,6.23 0,0 1,-6.223 6.223L52.371,102.315A6.23,6.23 0,0 1,46.148 96.092L46.148,57.371a6.23,6.23 0,0 1,6.223 -6.223L100.69,51.148a6.23,6.23 0,0 1,6.223 6.223v8.989Z"
+      android:strokeWidth="1.5"
+      android:fillColor="#48d597"
+      android:strokeColor="#d6f8e9"/>
+  <path
+      android:pathData="M94.467,74.657h-2.766a2.074,2.074 0,0 0,0 4.148h2.766a2.074,2.074 0,1 0,0 -4.148Z"
+      android:strokeWidth="1.5"
+      android:fillColor="#48d597"
+      android:strokeColor="#d6f8e9"/>
+</vector>

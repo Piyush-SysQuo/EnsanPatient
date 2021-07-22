@@ -1,0 +1,955 @@
+<?xml version="1.0"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">مريض انسان</string>
+    <string name="select_language">اختيار اللغة </string>
+    <string name="english">الإنجليزية</string>
+    <string name="arabic">العربية</string>
+    <string name="signup_as_caregiver">التسجيل كمقدم رعاية صحية</string>
+    <string name="signup_as_patient">التسجيل كمستخدم </string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="don_t_have_an_account_sign_up">لا تملك حساب ؟ التسجيل</string>
+    <string name="forgot_password">هل نسيت كلمة المرور؟  </string>
+    <string name="forgot_password_title">هل نسيت كلمة المرور</string>
+    <string name="please_enter_your_email_below_to_receive_your_password_reset_instructions">الرجاء ادخال بريدك الالكتروني أدناه حتى تستلم تعليمات اعادة  تعيين كلمة المرور. </string>
+    <string name="hello_blank_fragment">مرحبَا</string>
+    <string name="open">افتح</string>
+    <string name="close">إغلاق</string>
+    <string name="iqma_national_id"> رقم الهوية الوطنية /الإقامة  </string>
+    <string name="password">كلمة المرور  </string>
+    <string name="loginemailerror"> ادخال بريدك الالكتروني</string>
+    <string name="loginepwderror">يرجى ادخال كلمة المرور</string>
+    <string name="errormsg">حدث خطأ ما …!</string>
+    <string name="i_accept_all_terms_and_conditions">أقبل سياسة وشروط الخصوصية!</string>
+    <string name="nameerror">أدخل إسمك</string>
+    <string name="familynameerror">أدخل إسم عائلتك</string>
+    <string name="emailerror">أدخل بريدك إلكتروني </string>
+    <string name="mobileerror">أدخل رقم هاتفك المحمول</string>
+    <string name="pwderror">أدخل كلمة المرور</string>
+    <string name="passmatcherror">الرجاء إعادة كتابة كلمة المرور الخاصة بك</string>
+    <string name="acceptcondtionerror">الرجاء قبول الشروط والأحكام!</string>
+    <string name="doberror">اختر تاريخ ميلادك</string>
+    <string name="name">الاسم</string>
+    <string name="family_name">اسم العائلة  </string>
+    <string name="dob">تاريخ الميلاد</string>
+    <string name="confirm_password">تأكيد كلمة المرور</string>
+    <string name="mobile_number">رقم الجوال</string>
+    <string name="otperror">رمز التفعيل غير صالح  </string>
+    <string name="gendererror">الرجاء إختيار الجنس</string>
+    <string name="patternerror">يجب أن تحتوي كلمة المرور على الأقل على رقم، حرف كبير وحرف صغير ورمز  </string>
+    <string name="pwdsizeerror">يجب أن تحتوي كلمة المرور على 6 خانات على الأقل</string>
+    <string name="number_of_children">(عدد الأطفال)غير إلزامي</string>
+    <string name="height">الطول (cm)</string>
+    <string name="weight">الوزن (kg)</string>
+    <string name="emergency_numbers">هاتف الطواريء(5XXXXXXXX)</string>
+    <string name="nochilderror">عدد الأطفال</string>
+    <string name="heighterror">الطول</string>
+    <string name="weighterror">الوزن</string>
+    <string name="change_your_email">تغيير بريدك الإلكتروني</string>
+    <string name="bloodgrperror">الرجاء إختيار فصيلة الدم</string>
+    <string name="emergencynoerror">أدخل رقم هاتف الطوارئ الخاص بك</string>
+    <string name="adderror">أدخل عنوانك</string>
+    <string name="pboxerror">أدخل صندوق البريد</string>
+    <string name="cityerror">أدخل اسم مدينتك</string>
+    <string name="reset">إعادة الضبط</string>
+    <string name="countryerror">الرجاء تحديد بلدك</string>
+    <string name="family_members">أفراد العائلة</string>
+    <string name="name_of_patient">إسم المريض</string>
+    <string name="phone_no">رقم الهاتف</string>
+    <string name="nationality">الجنسية</string>
+    <string name="gender">الجنس</string>
+    <string name="marital_status">الحالة الإجتماعية</string>
+    <string name="date_of_birth">تاريخ الميلاد</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="emergency_contact_number">رقم الإتصال عند الطواريء</string>
+    <string name="address">العنوان</string>
+    <string name="personal_details">التفاصيل الشخصية</string>
+    <string name="add_new">إضافة</string>
+    <string name="continue_and_complete_profile">متابعة واستكمال الملف</string>
+    <string name="first_name_of_patient">الإسم الأول للمريض</string>
+    <string name="last_name_of_patient">إسم عائلة المريض</string>
+    <string name="fielderror">خانة ضرورية</string>
+    <string name="delete_image">حذف صورة</string>
+    <string name="complete_medical_history">إستكمال التاريخ المرضي</string>
+    <string name="medical_condition">الحالة الطبية</string>
+    <string name="surgery">جراحة</string>
+    <string name="medication_routine">أدوية روتينية</string>
+    <string name="trauma">حوادث</string>
+    <string name="comorbidities">أمراض مزمنة</string>
+    <string name="general_condition_mobility">حالة عامة ( مستوى الحركة)</string>
+    <string name="write_here">الكتابة هنا</string>
+    <string name="_100_words_limitation">في حدود 100 كلمة</string>
+    <string name="diet">نظام غذائي</string>
+    <string name="the_paleo_diet">الحمية باليو</string>
+    <string name="the_blood_type_diet">الحمية فصيلة الدم</string>
+    <string name="the_vegan_diet">الحمية النباتية الصرفة</string>
+    <string name="the_mediterranean_diet">الحمية البحر الأبيض المتوسط</string>
+    <string name="raw_food_diet">حمية الغذاء الخام</string>
+    <string name="activities">مستوى الحركة  </string>
+    <string name="smoke">تدخين</string>
+    <string name="exercise">تمرين</string>
+    <string name="employment">طبيعة العمل</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="my_profile">ملفي الشخصي</string>
+    <string name="save_cards">البطاقات المحفوظة</string>
+    <string name="id_verification">التحقق من الهوية </string>
+    <string name="upload_image">رفع الصورة</string>
+    <string name="upload_insurance_card">تحميل بطاقة التامين  </string>
+    <string name="retry">الرجاء إعادة المحاولة  </string>
+    <string name="image_uploaded">تم تحميل الصورة </string>
+    <string name="add_your_address">إضافة عنوانك</string>
+    <string name="of_patient">إسم المريض</string>
+    <string name="complete_patient_profile">أستكمال ملف المريض</string>
+    <string name="add_member">إضافة فرد </string>
+    <string name="relationshiperror">الرجاء إختيار العلاقة</string>
+    <string name="typeerroe">الرجاء إختيار النوع</string>
+    <string name="chooserelationship">إختيار العلاقة</string>
+    <string name="choosetype">إختيار النوع</string>
+    <string name="save_btn">حفظ</string>
+    <string name="next">التالي</string>
+    <string name="save_diet">حفظ النظام الغذائي</string>
+    <string name="save_activity">حفظ النشاط</string>
+    <string name="add_emp">أضف الوظيفة</string>
+    <string name="deserror">الرجاء إضافة شرح</string>
+    <string name="are_you_working">هل أنت على رأس العمل؟</string>
+    <string name="allergy"> حساسية؟ </string>
+    <string name="drug_allergy">هل لديك حساسية من نوع معين من الادوية؟</string>
+    <string name="food_allergy">هل لديك حساسية من نوع معين من الأطعمة؟</string>
+    <string name="others">أخرى</string>
+    <string name="back">رجوع</string>
+    <string name="update_profile"> تحديث الملف الشخصي </string>
+    <string name="select_time">إختيار الوقت</string>
+    <string name="search_service">البحث عن خدمة</string>
+    <string name="book_now">الحجز الآن</string>
+    <string name="ok">حسنا</string>
+    <string name="special_note">ملاحظة خاصة (ليست إلزامية)</string>
+    <string name="to_date">إلى تاريخ</string>
+    <string name="from_date">من تاريخ</string>
+    <string name="past">ماضِ</string>
+    <string name="current">حاليَا</string>
+    <string name="noterror">لا يوجد ملاحظات</string>
+    <string name="profile">ملف شخصي</string>
+    <string name="verified">تم التحقق</string>
+    <string name="dummy_user_name">محمد سالم</string>
+    <string name="dummy_user_location">الشارقة</string>
+    <string name="dummy_user_price">٤٧ ريال / ساعة</string>
+    <string name="dummy_rating_count">(١٠)</string>
+    <string name="dummy_cared_for_text">تعتني عائلة واحدة</string>
+    <string name="dummy_exp_text">• سنتان</string>
+    <string name="dummy_user_age">• ٢٦سنة</string>
+    <string name="background_check">التحقق من الخلفية  </string>
+    <string name="about_user_text">بخصوص سليم </string>
+    <string name="lipsum">المحتوى</string>
+    <string name="dummy_user_nationality">المملكة العربية السعودية</string>
+    <string name="dummy_user_qualification">بكالوريوس صيدلة</string>
+    <string name="services">خدمات  </string>
+    <string name="view_profile">عرض الملف الشخصي </string>
+    <string name="dummy_lang">عربي </string>
+    <string name="dummy_service">الطواريء</string>
+    <string name="languages">اللغات</string>
+    <string name="qualification">المؤهلات</string>
+    <string name="booking_history">الحجوزات السابقة</string>
+    <string name="accepted">مقبولة</string>
+    <string name="on_the_way">في الطريق اليك</string>
+    <string name="completed">مكتمل</string>
+    <string name="doberrors">أنت أقل من 18 عامَا </string>
+    <string name="click_here">الضغط هنا</string>
+    <string name="accept">قبول</string>
+    <string name="google_maps_key">AIzaSyDHbEyZ1dlCEYCKB0dRma62EE1v3saZYK8</string>
+    <string name="select_family_member">إختر فرد من الأسرة</string>
+    <string name="upload_profile_photo">تحميل صورة الملف</string>
+    <string name="pay_now">الدفع الآن</string>
+    <string name="extra_charges">رسوم إضافية</string>
+    <string name="total">مبلغ مستحق</string>
+    <string name="doctor_visit">زيارة الطبيب</string>
+    <string name="insurance_card">بطاقة التامين</string>
+    <string name="id_proof">إثبات الهوية</string>
+    <string name="image_selected">تم إختيار الصورة</string>
+    <string name="add_new_btn">إضافة جديدة</string>
+    <string name="save">حفظ</string>
+    <string name="get_started">لنبدأ</string>
+    <string name="verification">التحقق</string>
+    <string name="blood_group">فصيلة الدم</string>
+    <string name="bmi">مؤشر كتلة الجسم </string>
+    <string name="medical_condition_history">تاريخ الحالة المرضية</string>
+    <string name="allergies">الحساسية</string>
+    <string name="edit_medical_history">تعديل التاريخ المرضي</string>
+    <string name="clear_all">مسح الكل</string>
+    <string name="mark_all_as_read"> وضع علامة مقروء</string>
+    <string name="total_balance">إجمالي الرصيد</string>
+    <string name="dummy_spent">٠٠ SAR</string>
+    <string name="dummy_balance">٠٠ SAR</string>
+    <string name="total_spent">مصروفات</string>
+    <string name="transfer_money">تحويل الأموال →</string>
+    <string name="transaction_history">تاريخ المعاملات</string>
+    <string name="cancel">الغاء</string>
+    <string name="support">الدعم</string>
+    <string name="paymenterror">إختيار طريقة الدفع</string>
+    <string name="natinalityerror">الرجاء إختيار الجنسية </string>
+    <string name="maritalerror">الرجاء إختيار الحالة الإجتماعية</string>
+    <string name="terms_and_condition">سياسة الخصوصية</string>
+    <string name="wallet">المحفظة</string>
+    <string name="sign_up">تسجيل جديد </string>
+    <string name="po_box">صندوق البريد</string>
+    <string name="card_type_visa_master_debit">نوع البطاقة ( فيزا، ماستر، مدى)</string>
+    <string name="card_number">رقم البطاقة</string>
+    <string name="expire_date">تاريخ الإنتهاء</string>
+    <string name="cvv_number">رقم التحقق</string>
+    <string name="about_app">عن التطبيق</string>
+    <string name="settings">الإعدادات</string>
+    <string name="notifications">إشعارات</string>
+    <string name="profilepicerror">يرجى تحميل صورة ملفك الشخصي</string>
+    <string name="descriptionerror">الرجاء إضافة شرح</string>
+    <string name="change_your_number">تغيير الرقم</string>
+    <string name="resend_otp">أعد إرسال رمز التفعيل</string>
+    <string name="payment_method">طريقة الدفع او السداد</string>
+    <string name="title_activity_caregiver_list_maps">خريطة</string>
+    <string name="add_family_members">أضف أحد أفراد العائلة</string>
+    <string name="adult">راشد</string>
+    <string name="minor">أقل من 18 عام </string>
+    <string name="save_n_continue">حفظ ومتابعة</string>
+    <string name="nameRequired">الاسم إلزامي</string>
+    <string name="phoneRequired">رقم الهاتف إلزامي</string>
+    <string name="phoneError">يجب أن لا يتجاوز رقم الهاتف 9 خانات</string>
+    <string name="medical_history">التاريخ المرضي</string>
+    <string name="add_more">أضف المزيد</string>
+    <string name="okay">حسنا</string>
+    <string name="home">الصفحة الرئيسية</string>
+    <string name="mybooking">حجوزاتي</string>
+    <string name="myprofile">ملفي الشخصي</string>
+    <string name="personalinfo">معلومات شخصية</string>
+    <string name="about">حول</string>
+    <string name="logout">تسجيل خروج</string>
+    <string name="setting">إعدادات</string>
+    <string name="what_do_you_need">ماذا تحتاج؟</string>
+    <string name="id_proofs">إثبات الهوية</string>
+    <string name="type">نوع</string>
+    <string name="relationship"> العلاقة</string>
+    <string name="activity">نشاط</string>
+    <string name="children">الأطفال</string>
+    <string name="location">موقعك</string>
+    <string name="notification">إشعارات</string>
+    <string name="privacy_amp_security">الخصوصية و أمن</string>
+    <string name="change_language">تغيير اللغة</string>
+    <string name="refund_policy">سياسة الإسترجاع</string>
+    <string name="help_amp_support">المساعدة والدعم</string>
+    <string name="mail_us">راسلنا</string>
+    <string name="call_us">اتصل بنا</string>
+    <string name="otp_number">أدخل رمز التفعيل المرسل على رقمك هنا</string>
+    <string name="remaining">الثواني المتبقية:</string>
+    <string name="complete_profile">الملف الشخصي الكامل</string>
+    <string name="male">ذكر</string>
+    <string name="female">أنثى</string>
+    <string name="single_visit">زيارة واحدة</string>
+    <string name="natioanlity">الجنسية </string>
+    <string name="saudi_arabia">المملكة العربية السعودية</string>
+    <string name="singleMale">اعزب</string>
+    <string name="singleFeMale">عزباء</string>
+    <string name="married">متزوج\ة</string>
+    <string name="documents">وثائق</string>
+
+
+    <string name="select_blood_group">إختر فصيلة الدم</string>
+    <string name="a_pos">A+</string>
+    <string name="a_neg">A-</string>
+    <string name="b_pos">B+</string>
+    <string name="b_neg">B-</string>
+    <string name="ab_pos">AB+</string>
+    <string name="ab_neg">AB-</string>
+    <string name="o_pos">O+</string>
+    <string name="o_neg">O-</string>
+    <string name="selectcity">إختر المدينة</string>
+    <string name="abha">أبها</string>
+    <string name="ad_dilam">الدلم</string>
+    <string name="albwa">الابوة</string>
+    <string name="artaweeiyah">الارطاوية‎</string>
+    <string name="bukayriyah">البكيرية‎</string>
+    <string name="baljurash">بلجرش</string>
+    <string name="bisha">بيشة‎</string>
+    <string name="bareg">بارج</string>
+    <string name="buraydah">بريدة‎</string>
+    <string name="al_bahah">الباحة‎</string>
+    <string name="buq_a">بوك</string>
+    <string name="dammam">الدمام‎</string>
+    <string name="dhahran">الظهران</string>
+    <string name="dhurma">ضرما‎</string>
+    <string name="dahaban">ذهبان‎</string>
+    <string name="diriyah">الدرعية‎</string>
+    <string name="duba">ضبا</string>
+    <string name="dumat">دومات</string>
+    <string name="jandal">دومات الجندل</string>
+    <string name="dawadmi">الدوادمي‎</string>
+    <string name="gatgat">جاتجات</string>
+    <string name="gerrha">جيرها</string>
+    <string name="gurayat">القريات</string>
+    <string name="gweiiyyah">الجويية</string>
+    <string name="sudair">حوطة سدير</string>
+    <string name="habaala">حبلة</string>
+    <string name="hajrah">هجرة</string>
+    <string name="haql">حقل</string>
+    <string name="hareeq">الحريق</string>
+    <string name="harmah">حرمة</string>
+    <string name="Ha_il">وابل</string>
+    <string name="tamim">حوطة بني تميم</string>
+    <string name="hofuf">الهفوف‎</string>
+    <string name="huraymila">حريملاء</string>
+    <string name="batin">حفر الباطن</string>
+    <string name="jabal">جبل أم الرؤوس</string>
+    <string name="jalajil">جلاجل</string>
+    <string name="al_jawf">الجوف</string>
+    <string name="jeddah">جدة</string>
+    <string name="jizan">جيزان</string>
+    <string name="jizan_economic">مدينة جيزان الإقتصادية</string>
+    <string name="jubail">الجبيل</string>
+    <string name="al_jafr">الجفر</string>
+    <string name="khafji">الخفجي</string>
+    <string name="khaybar">خيبر</string>
+    <string name="king_abdullah">مدينة الملك عبدالله الاقتصادية</string>
+    <string name="khamis_mushayt">خميس مشيط</string>
+    <string name="alsaih">السيح</string>
+    <string name="knowledge_economic">مدينة المعرفة الاقتصادية</string>
+    <string name="medina">المدينة المنورة</string>
+    <string name="khobar">مدينه الخبر‎</string>
+    <string name="al_khutt">الخوط</string>
+    <string name="layla">ليلى</string>
+    <string name="lihyan">لحيان‎</string>
+    <string name="al_lith">الليث‎</string>
+    <string name="AlMajmaah">المجمعة</string>
+    <string name="Mastoorah">مستورة</string>
+    <string name="AlMikhwah">المخواة</string>
+    <string name="almubarraz">المبرز</string>
+    <string name="AlMawain">المواين</string>
+    <string name="Mecca">مكة المكرمة</string>
+    <string name="Medina">المدينة المنورة</string>
+    <string name="Muzahmiyya">مزاحمية‎</string>
+    <string name="Najran">نجران</string>
+    <string name="AlNamas">النماص‎</string>
+    <string name="Umluj">أملج</string>
+    <string name="AlOmran">العمران</string>
+    <string name="AlOyoon">العيون</string>
+    <string name="Qadeimah">القضيمة</string>
+    <string name="AlQunfudhah">القنفذة ‎</string>
+    <string name="Rabigh">رابغ‎</string>
+    <string name="Rafha">رفحاء</string>
+    <string name="ArRass">الرس‎</string>
+    <string name="RasTanura">رأس تنورة</string>
+    <string name="Riyadh">مدينة الرياض</string>
+    <string name="RiyadhAl_Khabran">رياض الخبران</string>
+    <string name="Rumailah">الرميلة </string>
+    <string name="SabtAlAlaya">سبت العلايا</string>
+    <string name="SaratAbidah">سراة عبيدة</string>
+    <string name="Saihat">سيهات</string>
+    <string name="Safwacity">الصفوة</string>
+    <string name="Sakakah">سكاكا‎</string>
+    <string name="Sharurah">شرورة</string>
+    <string name="Shaqraa">شقراء</string>
+    <string name="Shaybah">شيبة</string>
+    <string name="AsSulayyil">السليل‎</string>
+    <string name="Taif">الطائف</string>
+    <string name="Tabuk">تبوك‎</string>
+    <string name="Tanomah"> تنومة‎</string>
+    <string name="ATarout">تاروت</string>
+    <string name="Tayma">تيماء‎</string>
+    <string name="Thadiq">ثادق</string>
+    <string name="Thuwal">ثول‎</string>
+    <string name="Thuqbah">الثقبة</string>
+    <string name="Turaif">طريف</string>
+    <string name="Tabarjall">طبرجل</string>
+    <string name="Udhailiyah">العضيلية</string>
+    <string name="Al_Ula">العلا</string>
+    <string name="TUmAl_Sahek">تم السحق</string>
+    <string name="Unaizahn">عنيزة</string>
+    <string name="Uqair">العقير</string>
+    <string name="Uyayna">عيينة </string>
+    <string name="UyunAlJiwa">عيون الجواء</string>
+    <string name="Wadi_Al_Dawasir"> وادي الدواسر</string>
+    <string name="AlWajh">الوجه </string>
+    <string name="Yanbu">ينبع</string>
+    <string name="AzZaimah"> الزيمة</string>
+    <string name="Zulfi">الزلفي </string>
+    <string name="select_country">أختر الدولة</string>
+    <string name="locationerror">يبدو أن مدينتك خارج المملكة العربية السعودية. يرجى التحقق من عنوانك.</string>
+    <string name="submit">إرسال</string>
+    <string name="payment">دفع</string>
+    <string name="card_holder_name">إسم حامل البطاقة</string>
+    <string name="logininfo">تم إنشاء الحساب بنجاح انقر فوق موافق لتسجيل الدخول مرة أخرى</string>
+    <string name="choose_relationship">إختيار العلاقة</string>
+    <string name="Son">إبن</string>
+    <string name="Mother">أم</string>
+    <string name="Father">أب</string>
+    <string name="Brother">أخ</string>
+    <string name="Sister">أخت</string>
+    <string name="GrandMother">جدة</string>
+    <string name="Daughter">ابنة</string>
+    <string name="Wife">زوجة</string>
+    <string name="Husband">زوج</string>
+    <string name="drag_pin_to_reposition">الرجاء سحب المؤشر لتحديد الموقع</string>
+    <string name="continue_">متابعة</string>
+    <string name="reset_password">إستعادة كلمة المرور</string>
+    <string name="select_your_gender">يرجى إختيار الجنس</string>
+    <string name="version">الإصدار :</string>
+    <string name="choose_date_amp_time">اختر التاريخ والوقت</string>
+    <string name="booking_details">تفاصيل الحجوزات</string>
+    <string name="in_the_next_24_hours_your_caregiver_will_review_your_nrequest_if_it_s_a_good_fit_they_will_accept_it_n_we_will_notify_you_via_email">خلال الـ ٢٤ساعة القادمة ، سيقوم مقدم الخدمة الصحية بمراجعة وتقييم طلبك. سوف نخطرك عبر البريد الإلكتروني.</string>
+    <string name="km">كيلومتر</string>
+    <string name="contact_us"> تواصل معنا</string>
+    <string name="update">تحديث</string>
+    <string name="plan_changed">لقد تغيرت الخطة</string>
+    <string name="costly">أنها مكلفة للغاية</string>
+    <string name="caregiver">مقدم الخدمة الصحية لا يتحرك</string>
+    <string name="listed">أٍسبابي غير مدرجة</string>
+    <string name="cancel_booking">إلغاء الحجز</string>
+    <string name="notcancel">لا تلغي</string>
+    <string name="carefor">تمت رعاية </string>
+    <string name="abt">حول </string>
+    <string name="booking_detail">تفاصيل الحجوزات</string>
+    <string name="request_sent">تم ارسال الطلب</string>
+    <string name="proerror">يرجى تحميل صورة ملفك الشخصي</string>
+    <string name="idvererror">يرجى تحميل وثائق التحقق</string>
+    <string name="inseror">يرجى تحميل بطاقة التأمين </string>
+    <string name="choosedoc">الرجاء تحميل الملفات</string>
+    <string name="take_photo">أخذ صورة</string>
+    <string name="choose_gallery">اختر من المعرض</string>
+    <string name="choose_services">اختر الخدمات</string>
+    <string name="book_appointments">حجز المواعيد</string>
+    <string name="_24x7_support">دعم ٢٤×٧</string>
+    <string name="doceuperror">الرجاء تحميل الملفات</string>
+    <string name="invalidselection">اختيار غير صحيح</string>
+    <string name="freqerror">يرجى إختيار عدد المرات</string>
+    <string name="dateeror">الرجاء تحديد تاريخ</string>
+    <string name="timeerror">الرجاء تحديد وقت</string>
+    <string name="incorrecttimeerror">الرجاء تحديد الوقت الصحيح</string>
+    <string name="iqamaerror">يجب أن يبدأ رقم الهوية ب 1 أو 2</string>
+    <string name="exitmshg">هل أنت متأكد من انك تريد الخروج؟</string>
+    <string name="_5xxxxxxxxxx">5XXXXXXXX</string>
+    <string name="errorotp">عنوان البريد الإلكتروني المحدد غير موجود</string>
+    <string name="divorced">مطلق\ة</string>
+    <string name="widowed">أرمل\ة</string>
+    <string name="separated">منفصل</string>
+    <string name="select_marital_status">الرجاء إختيار الحالة الإجتماعية</string>
+    <string name="select_nationality">الجنسية </string>
+    <string name="save_address">حفظ العنوان </string>
+    <string name="neighbour">الجار</string>
+    <string name="save_your_address">حفظ العنوان </string>
+    <string name="landmarkerrror">الرجاء كتابة وصف معلم مجاور</string>
+    <string name="addresses">عناوين</string>
+    <string name="add_address">أضف عنوان</string>
+    <string name="confirm">تأكيد</string>
+    <string name="checkboxer">يرجى تحديد خانة الاختيار</string>
+    <string name="make_address_as_default">أجعله عنوانك الإفتراضي</string>
+    <string name="set_as_default">تعيين كافتراضي</string>
+    <string name="no_services_found">لا توجد خدمات!</string>
+    <string name="numbermsg">أدخل رمز التفعيل المرسل على رقمك</string>
+    <string name="change_phone_number">تغيير الرقم </string>
+    <string name="reach_on_whatsapp">تواصل معنا على WhatsApp</string>
+    <string name="user_manual">دليل المستخدم</string>
+    <string name="no_apps_error">لم يتم العثور على تطبيقات على هاتفك لهذا الإجراء.</string>
+    <string name="location_name">اسم الموقع</string>
+    <string name="tagerror">بماذا تريد أن تسجل هذا الموقع؟</string>
+    <string name="add_notes">أضف ملاحظات</string>
+    <string name="cancelerror">الرجاء اختيار سبب الإلغاء الخاص بك</string>
+    <string name="Select_Quantity">حدد الكمية</string>
+    <string name="reason_for_cancel">سبب الإلغاء</string>
+    <string name="history">التاريخ</string>
+    <string name="medical_condition_description">وصف الحالة الطبية</string>
+    <string name="surgery_description">وصف الجراحة</string>
+    <string name="medical_routine_description">الوصف الروتيني الطبي</string>
+    <string name="trauma_description">وصف الصدمة</string>
+    <string name="comorbidities_description">وصف الأمراض المصاحبة</string>
+    <string name="general_condition_description">وصف الحالة العامة</string>
+    <string name="food_allergy_description">وصف حساسية الطعام</string>
+    <string name="drug_allergy_description">وصف حساسية الدواء</string>
+    <string name="other_allergy_description">وصف الحساسية الأخرى</string>
+    <string name="employment_description">الوصف الوظيفي</string>
+    <string name="transactions">المعاملات</string>
+    <string name="refund_policy_error">لا يمكن العثور على سياسة استرداد في هذه اللحظة. الرجاء معاودة المحاولة في وقت لاحق.</string>
+    <string name="frequency_error">يرجى إختيار عدد المرات</string>
+    <string name="no_service_error">الرجاء تحديد خدمة واحدة على الأقل للمتابعة</string>
+    <string name="review">مراجعة</string>
+    <string name="rating_and_review">التقييم والمراجعة</string>
+    <string name="submit_review">إرسال</string>
+    <string name="not_now">ليس الان</string>
+    <string name="chooseprofile">اختر صورة ملفك الشخصي</string>
+    <string name="smoking">التدخين</string>
+    <string name="excercise">تمرين</string>
+    <string name="no_booking_left">لا توجد حجوزات</string>
+    <string name="no_notification_left">لا توجد إشعارات</string>
+    <string name="no_transaction_left">لم يتم العثور على معاملة</string>
+    <string name="no_member_left">لم يتم العثور على عضو</string>
+    <string name="no_card">لم يتم العثور على بطاقات</string>
+    <string name="add_IdProof">اضف جديد</string>
+    <string name="add_qualification">إضافة إثبات الهوية</string>
+    <string name="upload_idproof_documents">تحميل مستندات إثبات الهوية</string>
+    <string name="add_insurance">أضف التأمين</string>
+    <string name="phonenoerror">تم تسجيل رقم الهاتف هذا مسبقَا</string>
+    <string name="phoneerrormsg">تم تسجيل رقم الهاتف هذا مسبقَا</string>
+    <string name="no_insurance_left">لم يتم العثور على بطاقة تأمين</string>
+    <string name="no_id_left">لم يتم العثور على إثبات الهوية</string>
+    <string name="no_medical_history_found">لم يتم العثور على تاريخ طبي</string>
+    <string name="no_allergy_found">لم يتم العثور على سجل للحساسية</string>
+    <string name="no_diet_found">لم يتم العثور على نظام غذائي</string>
+    <string name="no_activity_found">لم يتم العثور على أي نشاط</string>
+    <string name="no_employment_found">لم يتم العثور على عمل</string>
+    <string name="invalid_emergency_number">رقم طوارئ غير صحيح</string>
+    <string name="diabetic_diet">حمية مرض السكر</string>
+    <string name="keto_diet">الحمية الكيتونية</string>
+    <string name="vegan_diet">الحمية النباتية الصرفة</string>
+    <string name="vegetarian_diet">الحمية النباتية</string>
+    <string name="raw_diet">حمية الغذاء الخام</string>
+    <string name="law_salt_diet">حمية قليلة الملح</string>
+    <string name="zone_diet">حمية زون</string>
+    <string name="phonelengtherror">يجب أن يتكون رقم الهاتف من 9 أرقام</string>
+    <string name="please_choose_card">الرجاء اختيار نوع البطاقة</string>
+    <string name="visa_maestro">بطاقة فيزا/ بطاقة ماستر</string>
+    <string name="mada">بطاقات مدى</string>
+    <string name="click_to_pay">انقر للدفع</string>
+    <string name="know_paid">تم الدفع</string>
+    <string name="cannot_fetch_distance_error">لا يمكن إحضار المسافة</string>
+    <string name="invoice_no">رقم الفاتورة.</string>
+    <string name="invoice_details">تفاصيل الفاتورة</string>
+    <string name="downloadingerror">فشل التحميل …!</string>
+    <string name="downloadfile">الرجاء الضغط لتحميل الملف</string>
+    <string name="paid_to_caregiver">تم الدفع لمقدم الخدمة</string>
+    <string name="service">الخدمات</string>
+    <string name="earning">الأرباح</string>
+    <string name="charge_type">طريقة الدفع</string>
+    <string name="tax">ضريبة</string>
+    <string name="city">مدينة</string>
+    <string name="postalError">أدخل الرمز البريدي الخاص بك</string>
+    <string name="totalamt">مجموع</string>
+    <string name="paid">مدفوع</string>
+    <string name="profile_detail">تفاصيل الملف الشخصي</string>
+    <string name="activities_title">أنشطة</string>
+    <string name="caregiver_not_available">مقدم الرعاية غير متوفر</string>
+    <string name="poboxerror">يجب أن تحتوي خانة صندوق البريد على 5 أرقام</string>
+    <string name="no_care_giver_found">لم يتم العثور على مقدم رعاية</string>
+    <string name="phoneerror5">يجب أن يبدأ رقم الهاتف بالرقم 5</string>
+
+    <string-array name="cameralist">
+        <item>@string/take_photo</item>
+        <item>@string/choose_gallery</item>
+        <item>@string/cancel</item>
+    </string-array>
+
+    <string-array name="dialog_array">
+        <item>@string/plan_changed</item>
+        <item>@string/costly</item>
+        <item>@string/caregiver</item>
+        <item>@string/listed</item>
+    </string-array>
+
+    <string-array name="country">
+        <item>@string/select_country</item>
+        <item>@string/saudi_arabia</item>
+    </string-array>
+
+    <string-array name="relations">
+        <item>@string/choose_relationship</item>
+        <item>@string/Son</item>
+        <item>@string/Mother</item>
+        <item>@string/Father</item>
+        <item>@string/Brother</item>
+        <item>@string/Sister</item>
+        <item>@string/GrandMother</item>
+        <item>@string/Daughter</item>
+        <item>@string/Wife</item>
+        <item>@string/Husband</item>
+    </string-array>
+
+    <string-array name="city">
+        <item>@string/selectcity</item>
+        <item>@string/abha</item>
+        <item>@string/ad_dilam</item>
+        <item>@string/albwa</item>
+        <item>@string/artaweeiyah</item>
+        <item>@string/bukayriyah</item>
+        <item>@string/baljurash</item>
+        <item>@string/bisha</item>
+        <item>@string/bareg</item>
+        <item>@string/buraydah</item>
+        <item>@string/al_bahah</item>
+        <item>@string/buq_a</item>
+        <item>@string/dammam</item>
+        <item>@string/dhahran</item>
+        <item>@string/dhurma</item>
+        <item>@string/dahaban</item>
+        <item>@string/diriyah</item>
+        <item>@string/duba</item>
+        <item>@string/dumat</item>
+        <item>@string/jandal</item>
+        <item>@string/dawadmi</item>
+        <item>@string/gatgat</item>
+        <item>@string/gerrha</item>
+        <item>@string/gurayat</item>
+        <item>@string/gweiiyyah</item>
+        <item>@string/sudair</item>
+        <item>@string/habaala</item>
+        <item>@string/hajrah</item>
+        <item>@string/haql</item>
+        <item>@string/hareeq</item>
+        <item>@string/harmah</item>
+        <item>@string/Ha_il</item>
+        <item>@string/tamim</item>
+        <item>@string/hofuf</item>
+        <item>@string/huraymila</item>
+        <item>@string/batin</item>
+        <item>@string/jabal</item>
+        <item>@string/jalajil</item>
+        <item>@string/al_jawf</item>
+        <item>@string/jeddah</item>
+        <item>@string/jizan</item>
+        <item>@string/jizan_economic</item>
+        <item>@string/jubail</item>
+        <item>@string/al_jafr</item>
+        <item>@string/khafji</item>
+        <item>@string/khaybar</item>
+        <item>@string/king_abdullah</item>
+        <item>@string/khamis_mushayt</item>
+        <item>@string/alsaih</item>
+        <item>@string/knowledge_economic</item>
+        <item>@string/medina</item>
+        <item>@string/khobar</item>
+        <item>@string/al_khutt</item>
+        <item>@string/layla</item>
+        <item>@string/lihyan</item>
+        <item>@string/al_lith</item>
+        <item>@string/AlMajmaah</item>
+        <item>@string/Mastoorah</item>
+        <item>@string/AlMikhwah</item>
+        <item>@string/almubarraz</item>
+        <item>@string/AlMawain</item>
+        <item>@string/Mecca</item>
+        <item>@string/Medina</item>
+        <item>@string/Muzahmiyya</item>
+        <item>@string/Najran</item>
+        <item>@string/AlNamas</item>
+        <item>@string/Umluj</item>
+        <item>@string/AlOmran</item>
+        <item>@string/AlOyoon</item>
+        <item>@string/Qadeimah</item>
+        <item>@string/AlQunfudhah</item>
+        <item>@string/Rabigh</item>
+        <item>@string/Rafha</item>
+        <item>@string/ArRass</item>
+        <item>@string/RasTanura</item>
+        <item>@string/Riyadh</item>
+        <item>@string/RiyadhAl_Khabran</item>
+        <item>@string/Rumailah</item>
+        <item>@string/SabtAlAlaya</item>
+        <item>@string/SaratAbidah</item>
+        <item>@string/Saihat</item>
+        <item>@string/Safwacity</item>
+        <item>@string/Sakakah</item>
+        <item>@string/Sharurah</item>
+        <item>@string/Shaqraa</item>
+        <item>@string/Shaybah</item>
+        <item>@string/AsSulayyil</item>
+        <item>@string/Taif</item>
+        <item>@string/Tabuk</item>
+        <item>@string/Tanomah</item>
+        <item>@string/ATarout</item>
+        <item>@string/Tayma</item>
+        <item>@string/Thadiq</item>
+        <item>@string/Thuwal</item>
+        <item>@string/Thuqbah</item>
+        <item>@string/Turaif</item>
+        <item>@string/Tabarjall</item>
+        <item>@string/Udhailiyah</item>
+        <item>@string/Al_Ula</item>
+        <item>@string/TUmAl_Sahek</item>
+        <item>@string/Unaizahn</item>
+        <item>@string/Uqair</item>
+        <item>@string/Uyayna</item>
+        <item>@string/UyunAlJiwa</item>
+        <item>@string/Wadi_Al_Dawasir</item>
+        <item>@string/AlWajh</item>
+        <item>@string/Yanbu</item>
+        <item>@string/AzZaimah</item>
+        <item>@string/Zulfi</item>
+    </string-array>
+
+    <string-array name="natioanlity">
+        <item>@string/natioanlity</item>
+        <item>@string/saudi_arabia</item>
+    </string-array>
+
+    <string-array name="maritalstatus">
+        <item>@string/marital_status</item>
+        <item>@string/singleFeMale</item>
+        <item>@string/married</item>
+        <item>@string/divorced</item>
+        <item>@string/widowed</item>
+        <item>@string/separated</item>
+    </string-array>
+
+    <string-array name="maritalstatusmale">
+        <item>@string/marital_status</item>
+        <item>@string/singleMale</item>
+        <item>@string/married</item>
+        <item>@string/divorced</item>
+        <item>@string/widowed</item>
+        <item>@string/separated</item>
+    </string-array>
+
+    <string-array name="blood_group">
+        <item>@string/select_blood_group</item>
+        <item>@string/a_pos</item>
+        <item>@string/a_neg</item>
+        <item>@string/b_pos</item>
+        <item>@string/b_neg</item>
+        <item>@string/ab_pos</item>
+        <item>@string/ab_neg</item>
+        <item>@string/o_pos</item>
+        <item>@string/o_neg</item>
+    </string-array>
+
+    <string-array name="countries_array">
+        <item>@string/natioanlity</item>
+        <item>المملكة العربية السعودية</item>
+        <item>أفغانستان</item>
+        <item>ألبانيا</item>
+        <item>الجزائر</item>
+        <item>ساموا-الأمريكي</item>
+        <item>أندورا</item>
+        <item>أنجولا</item>
+        <item>أنجويلا</item>
+        <item>القارة القطبية الجنوبية</item>
+        <item>أنتيغوا وبربودا</item>
+        <item>الأرجنتين</item>
+        <item>أرمينيا</item>
+        <item>أروبا</item>
+        <item>أستراليا</item>
+        <item>النمسا</item>
+        <item>أذربيجان</item>
+        <item>باهاماس</item>
+        <item>بنجلاديش</item>
+        <item>باربادوس</item>
+        <item>بيلاروس</item>
+        <item>بلجيكا</item>
+        <item>بيليز</item>
+        <item>بنين</item>
+        <item>برمودا</item>
+        <item>بوتان</item>
+        <item>بوليفيا</item>
+        <item>البوسنة والهرسك</item>
+        <item>بوتسوانا</item>
+        <item>جزيرة بوفيت</item>
+        <item>البرازيل</item>
+        <item>إقليم المحيط البريطاني الهندي</item>
+        <item>جزر فيرجن البريطانية</item>
+        <item>بروناي</item>
+        <item>بلغاريا</item>
+        <item>بوركينا فاسو</item>
+        <item>بوروندي</item>
+        <item>كمبوديا</item>
+        <item>كاميرون</item>
+        <item>كندا</item>
+        <item>الرأس الأخضر	</item>
+        <item>جزر كايمان</item>
+        <item>جمهورية أفريقيا الوسطى</item>
+        <item>تشاد</item>
+        <item>تشيلي</item>
+        <item>الصين</item>
+        <item>جزيرة الكريسماس</item>
+        <item>جزر كوكوس (كيلينغ)</item>
+        <item>كولومبيا</item>
+        <item>جزر القمر</item>
+        <item>جمهورية الكونغو</item>
+        <item>جزر كوك</item>
+        <item>كوستاريكا</item>
+        <item>ساحل العاج</item>
+        <item>كرواتيا</item>
+        <item>كوبا</item>
+        <item>قبرص</item>
+        <item>التشيك</item>
+        <item>جمهورية الكونغو الديمقراطية	</item>
+        <item>الدنمارك</item>
+        <item>جيبوتي</item>
+        <item>دومينيكا</item>
+        <item>جمهورية الدومينيكان</item>
+        <item>تيمور الشرقية	</item>
+        <item>الإكوادور</item>
+        <item>مصر</item>
+        <item>السلفادور</item>
+        <item>غينيا الاستوائية	</item>
+        <item>إريتريا</item>
+        <item>إستونيا</item>
+        <item>إثيوبيا</item>
+        <item>جزر فوكلاند</item>
+        <item>جزر فارو</item>
+        <item>فيجي</item>
+        <item>فنلندا</item>
+        <item>جمهورية مقدونيا اليوغوسلافية السابقة</item>
+        <item>فرنسا</item>
+        <item>غينيا الفرنسية</item>
+        <item>بولينيزيا الفرنسية</item>
+        <item>المناطق الجنوبية لفرنسا</item>
+        <item>الغابون</item>
+        <item>جورجيا</item>
+        <item>ألمانيا</item>
+        <item>غانا</item>
+        <item>جبل طارق</item>
+        <item>اليونان</item>
+        <item>جرينلاند</item>
+        <item>غرينادا</item>
+        <item>غوادلوب</item>
+        <item>غوام</item>
+        <item>غواتيمال</item>
+        <item>غينيا</item>
+        <item>غينيا بيساو</item>
+        <item>غيانا</item>
+        <item>هايتي</item>
+        <item>قلب الجزيرة وجزر ماكدونالز</item>
+        <item>هندوراس</item>
+        <item>هونغ كونغ</item>
+        <item>المجر</item>
+        <item>أيسلندا</item>
+        <item>الهند</item>
+        <item>إندونيسيا</item>
+        <item>إيران</item>
+        <item>العراق</item>
+        <item>جمهورية أيرلندا	</item>
+        <item>إسرائيل</item>
+        <item>إيطاليا</item>
+        <item>جامايكا</item>
+        <item>اليابان</item>
+        <item>الأردن</item>
+        <item>كازاخستان</item>
+        <item>كينيا</item>
+        <item>كيريباتي</item>
+        <item>الكويت</item>
+        <item>قيرغيزستان</item>
+        <item>لاوس</item>
+        <item>لاتفيا</item>
+        <item>لبنان</item>
+        <item>ليسوتو</item>
+        <item>ليبيريا</item>
+        <item>ليبيا</item>
+        <item>ليختنشتاين</item>
+        <item>ليتوانيا</item>
+        <item>لوكسمبورغ</item>
+        <item>ماكاو</item>
+        <item>مدغشقر</item>
+        <item>مالاوي</item>
+        <item>ماليزيا</item>
+        <item>المالديف</item>
+        <item>مالي</item>
+        <item>مالطا</item>
+        <item>جزر مارشال</item>
+        <item>مارتينيك</item>
+        <item>موريتانيا</item>
+        <item>موريشيوس</item>
+        <item>مايوت</item>
+        <item>المكسيك</item>
+        <item>ولايات ميكرونيسيا المتحدة	</item>
+        <item>مولدوفا</item>
+        <item>موناكو</item>
+        <item>منغوليا</item>
+        <item>الجبل الأسو</item>
+        <item>مونتسرات</item>
+        <item>المغرب</item>
+        <item>موزمبيق</item>
+        <item>ميانمار</item>
+        <item>ناميبيا</item>
+        <item>ناورو</item>
+        <item>نيبال</item>
+        <item>هولندا</item>
+        <item>جزر الأنتيل الهولندية</item>
+        <item>كاليدونيا الجديدة	</item>
+        <item>نيوزيلندا</item>
+        <item>نيكاراجوا</item>
+        <item>النيجر</item>
+        <item>نيجيريا</item>
+        <item>نيوي</item>
+        <item>جزيرة نورفولك</item>
+        <item>كوريا الشمالية</item>
+        <item>جزر ماريانا الشمالية</item>
+        <item>النرويج</item>
+        <item>عُمان</item>
+        <item>باكستان</item>
+        <item>بالاو</item>
+        <item>بنما</item>
+        <item>بابوا غينيا الجديدة</item>
+        <item>باراغواي</item>
+        <item>بيرو</item>
+        <item>الفلبين</item>
+        <item>جزر بيتكيرن</item>
+        <item>بولندا</item>
+        <item>البرتغال</item>
+        <item>بورتوريكو</item>
+        <item>قطر</item>
+        <item>ريونيون</item>
+        <item>رومانيا</item>
+        <item>روسيا</item>
+        <item>رواندا</item>
+        <item>سكو تومي وبرينسيبي</item>
+        <item>سانت هيلانة</item>
+        <item>سانت كيتس ونيفيس</item>
+        <item>سانت لوسيا</item>
+        <item>سانت بيير وميكلون</item>
+        <item>سانت فينسنت والغرينادين	</item>
+        <item>ساموا</item>
+        <item>سان مارينو	</item>
+        <item>السنغال</item>
+        <item>صربيا</item>
+        <item>سيشل</item>
+        <item>سيراليون</item>
+        <item>سنغافورة</item>
+        <item>سلوفاكيا</item>
+        <item>سلوفينيا</item>
+        <item>جزر سليمان</item>
+        <item>الصومال</item>
+        <item>جنوب أفريقيا</item>
+        <item>جورجيا الجنوبية وجزر ساندويتش الجنوبية</item>
+        <item>كوريا الجنوبية</item>
+        <item>جنوب السودان	</item>
+        <item>إسبانيا</item>
+        <item>سريلانكا</item>
+        <item>السودان</item>
+        <item>سورينام</item>
+        <item>سفالبارد وجان ماين</item>
+        <item>سوازيلند </item>
+        <item>السويد</item>
+        <item>سويسرا</item>
+        <item>سوريا</item>
+        <item>تايوان</item>
+        <item>طاجيكستان</item>
+        <item>تنزانيا</item>
+        <item>تايلاند</item>
+        <item>جزر البهاما</item>
+        <item>غامبيا</item>
+        <item>توغو</item>
+        <item>توكيلاو</item>
+        <item>تونغا</item>
+        <item>ترينيداد وتوباغو	</item>
+        <item>تونس</item>
+        <item>تركيا</item>
+        <item>تركمانستان</item>
+        <item>جزر تركس وكايكوس</item>
+        <item>توفالو</item>
+        <item>جزر فيرجن</item>
+        <item>أوغندا</item>
+        <item>أوكرانيا</item>
+        <item>الإمارات العربية المتحدة</item>
+        <item>المملكة المتحدة	</item>
+        <item>الولايات المتحدة	</item>
+        <item>جزر الولايات المتحدة البعيدة الصغرى</item>
+        <item>أوروغواي</item>
+        <item>أوزبكستان</item>
+        <item>فانواتو</item>
+        <item>الفاتيكان</item>
+        <item>فنزويلا</item>
+        <item>فيتنام</item>
+        <item>واليس وفوتونا	</item>
+        <item>الصحراء الغربية</item>
+        <item>اليمن</item>
+        <item>يوغوسلافيا</item>
+        <item>زامبيا</item>
+        <item>زيمبابوي</item>
+
+    </string-array>
+    <string-array name="countryname">
+        <item>@string/select_country</item>
+        <item>@string/saudi_arabia</item>
+    </string-array>
+</resources>

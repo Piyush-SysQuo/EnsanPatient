@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/mainLayout"
+    android:layout_margin="@dimen/_5sdp">
+<RelativeLayout
+    android:layout_width="@dimen/_120sdp"
+    android:layout_height="@dimen/_120sdp">
+    <RelativeLayout
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="@dimen/_120sdp"
+        android:background="@drawable/card_unselect"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/antibioticIv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/antibiotic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/antibioticIv"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:id="@+id/descTv"
+            android:fontFamily="@font/kumbhsansregular"
+            android:text="Family Medicine" />
+    </RelativeLayout>
+    <ImageView
+        android:layout_width="@dimen/_25sdp"
+        android:layout_height="@dimen/_25sdp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:visibility="gone"
+        android:padding="@dimen/_5sdp"
+        android:src="@drawable/select" />
+
+</RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/ensan_blue"
+        tools:context=".view.fragment.personal.view.PersonalFragment">
+
+        <RelativeLayout
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_120sdp"
+            android:paddingTop="@dimen/_20sdp"
+            android:background="@color/ensan_blue">
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_10sdp"
+                android:onClick="backPressed"
+                android:src="@drawable/forward"
+                android:id="@+id/backPressed"
+                android:rotation="180"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:fontFamily="@font/allroundgothicmedium"
+                android:text="@string/save_cards"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_18sdp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/_90sdp"
+            android:background="@drawable/top_white_curved">
+
+            <Button
+                android:layout_width="@dimen/_90sdp"
+                android:layout_height="40dp"
+                android:background="@drawable/green_rect_curved"
+                android:text="@string/add_new"
+                android:onClick="addPayment"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_gravity="end"
+                android:textColor="@color/green"
+                android:layout_marginRight="@dimen/_10sdp"/>
+
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <com.facebook.shimmer.ShimmerFrameLayout
+                        android:id="@+id/shimmerFrameLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+
+                        <!-- Adding 15 rows of placeholders -->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <include layout="@layout/saved_card_items_shimmer" />
+
+                            <include layout="@layout/saved_card_items_shimmer" />
+
+                            <include layout="@layout/saved_card_items_shimmer" />
+
+                            <include layout="@layout/saved_card_items_shimmer" />
+
+                            <include layout="@layout/saved_card_items_shimmer" />
+
+                            <include layout="@layout/saved_card_items_shimmer" />
+
+                            <include layout="@layout/saved_card_items_shimmer" />
+
+                            <include layout="@layout/saved_card_items_shimmer" />
+
+                        </LinearLayout>
+
+                    </com.facebook.shimmer.ShimmerFrameLayout>
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_15sdp"
+                android:id="@+id/cardRv"
+                android:visibility="gone"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:background="@drawable/login_button"
+                android:fontFamily="@font/kumbhsansbold"
+                android:gravity="center"
+                android:id="@+id/paynow"
+                android:onClick="payNow"
+                android:text="@string/pay_now"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_14sdp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="center"
+                        android:visibility="gone"
+                        android:id="@+id/no_payment_layout"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_no_crd"
+                            android:padding="@dimen/_20sdp"/>
+
+
+                        <TextView
+                            android:layout_width="@dimen/_150sdp"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/kumbhsansregular"
+                            android:gravity="center"
+                            android:textSize="@dimen/_12sdp"
+                            android:text="@string/no_card"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/_20sdp"
+                            android:layout_marginTop="@dimen/_20sdp"
+                            android:layout_marginRight="@dimen/_20sdp"
+                            android:layout_marginBottom="@dimen/_10sdp"
+                            android:fontFamily="@font/kumbhsansbold"
+                            android:gravity="center"
+                            android:onClick="btnContinue"
+                            android:background="@drawable/login_button"
+                            android:textSize="@dimen/_13sdp"
+                            android:text="@string/continue_"
+                            android:textColor="@color/white"
+                            android:padding="@dimen/_10sdp"
+                            android:textAllCaps="true"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.core.widget.NestedScrollView>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</layout>

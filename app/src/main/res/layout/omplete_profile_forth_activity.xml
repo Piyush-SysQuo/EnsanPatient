@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryDark"
+        tools:context=".view.activity.completeprofile.view.CompleteProfileForthActivity">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_15sdp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:onClick="backPressed"
+                android:padding="@dimen/_5sdp"
+                android:rotation="180"
+                android:visibility="gone"
+                android:src="@drawable/forward" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/allroundgothicmedium"
+                android:gravity="center"
+                android:text="@string/documents"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_17sdp" />
+
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/top_white_curved"
+            android:layout_marginTop="@dimen/_70sdp"
+            android:layout_above="@id/buttonsLayout">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/headerLayout"
+                    android:layout_width="match_parent"
+                    android:layoutDirection="locale"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_marginTop="@dimen/_20sdp">
+
+                        <View
+                            android:layout_width="@dimen/_30sdp"
+                            android:layout_height="@dimen/_8sdp"
+                            android:background="@drawable/selection_gray"/>
+
+
+                        <View
+                            android:layout_width="@dimen/_30sdp"
+                            android:layout_height="@dimen/_8sdp"
+                            android:background="@drawable/selection_gray"
+                            android:layout_marginStart="@dimen/_5sdp"/>
+
+
+                        <View
+                            android:layout_width="@dimen/_30sdp"
+                            android:layout_height="@dimen/_8sdp"
+                            android:background="@drawable/selection_gray"
+                            android:layout_marginStart="@dimen/_5sdp"/>
+
+                        <View
+                            android:layout_width="@dimen/_30sdp"
+                            android:layout_height="@dimen/_8sdp"
+                            android:background="@drawable/selection_orange"
+                            android:layout_marginStart="@dimen/_5sdp"/>
+
+                        <View
+                            android:layout_width="@dimen/_30sdp"
+                            android:layout_height="@dimen/_8sdp"
+                            android:background="@drawable/selection_gray"
+                            android:layout_marginStart="@dimen/_5sdp"/>
+
+                        <View
+                            android:layout_width="@dimen/_30sdp"
+                            android:layout_height="@dimen/_8sdp"
+                            android:background="@drawable/selection_gray"
+                            android:layout_marginStart="@dimen/_5sdp"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/allroundgothicmedium"
+                        android:gravity="start"
+                        android:text="@string/upload_profile_photo"
+                        android:layout_marginStart="@dimen/_20sdp"
+                        android:layout_marginTop="@dimen/_20sdp"
+                        android:layout_marginEnd="@dimen/_20sdp"
+                        android:textColor="@color/dark_text"
+                        android:textSize="@dimen/_13sdp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_marginStart="@dimen/_20sdp"
+                        android:layout_marginEnd="@dimen/_20sdp"
+                        android:onClick="uploadProfile"
+                        android:id="@+id/layout_upload_profile"
+                        android:background="@drawable/doted_drawable"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:id="@+id/uploadImage"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layoutDirection="locale"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/upload" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/allroundgothicmedium"
+                            android:gravity="start"
+                            android:layout_centerInParent="true"
+                            android:layout_toRightOf="@+id/uploadImage"
+                            android:text="@string/upload_image"
+                            android:layout_marginStart="@dimen/_10sdp"
+                            android:textColor="@color/green"
+                            android:textSize="@dimen/_11sdp" />
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/profileImageLayout"
+                        android:layout_marginStart="@dimen/_20sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:visibility="gone"
+                        android:layoutDirection="locale"
+                        android:layout_marginEnd="@dimen/_20sdp"
+                        android:layout_gravity="left"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:id="@+id/profileImage"
+                            android:layout_width="@dimen/_70sdp"
+                            android:layout_height="@dimen/_70sdp"
+                            android:layoutDirection="locale"
+                            android:scaleType="fitXY"/>
+
+                        <LinearLayout
+                            android:layout_width="@dimen/_70sdp"
+                            android:layout_height="wrap_content"
+                            android:gravity="right">
+
+                            <ImageView
+                                android:layout_width="@dimen/_15sdp"
+                                android:layout_height="@dimen/_15sdp"
+                                android:id="@+id/img_delete"
+                                android:onClick="deleteImage"
+                                android:src="@drawable/ic_cancel"/>
+
+                        </LinearLayout>
+
+
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_20sdp"
+                        android:layout_marginStart="@dimen/_20sdp"
+                        android:layout_marginTop="@dimen/_40sdp"
+                        android:fontFamily="@font/allroundgothicmedium"
+                        android:gravity="start"
+                        android:text="@string/id_verification"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_13sdp" />
+
+                    <RelativeLayout
+                        android:id="@+id/idVerification"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_marginStart="@dimen/_20sdp"
+                        android:layout_marginTop="@dimen/_20sdp"
+                        android:layout_marginEnd="@dimen/_20sdp"
+                        android:background="@drawable/doted_curved_rect"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:id="@+id/upload"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/upload" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_marginStart="@dimen/_10sdp"
+                            android:layout_toRightOf="@+id/upload"
+                            android:fontFamily="@font/allroundgothicmedium"
+                            android:gravity="start"
+                            android:text="@string/upload_image"
+                            android:textColor="@color/green"
+                            android:textSize="@dimen/_11sdp" />
+
+                    </RelativeLayout>
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone"
+                        android:layoutDirection="locale"
+                        android:layout_marginStart="@dimen/_20sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_marginEnd="@dimen/_20sdp"
+                        android:id="@+id/idVerificationRV"/>
+
+                    <TextView
+                        android:id="@+id/txt_more"
+                        android:layout_width="@dimen/_80sdp"
+                        android:layout_height="@dimen/_30sdp"
+                        android:layout_gravity="end"
+                        android:layout_marginLeft="@dimen/_20sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_marginRight="@dimen/_20sdp"
+                        android:background="@drawable/login_button"
+                        android:fontFamily="@font/kumbhsansbold"
+                        android:gravity="center"
+                        android:text="@string/add_more"
+                        android:onClick="addMoreImages"
+                        android:visibility="gone"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_12sdp" />
+
+                    <RelativeLayout
+                        android:id="@+id/id_msg"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_marginStart="@dimen/_20sdp"
+                        android:layout_marginTop="@dimen/_20sdp"
+                        android:layout_marginEnd="@dimen/_20sdp"
+                        android:background="@drawable/doted_curved_rect"
+                        android:gravity="center"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_marginStart="@dimen/_10sdp"
+                            android:fontFamily="@font/allroundgothicmedium"
+                            android:gravity="start"
+                            android:text="@string/image_selected"
+                            android:textColor="@color/green"
+                            android:textSize="@dimen/_11sdp" />
+
+                    </RelativeLayout>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_20sdp"
+                        android:layout_marginTop="@dimen/_40sdp"
+                        android:fontFamily="@font/allroundgothicmedium"
+                        android:gravity="start"
+                        android:text="@string/upload_insurance_card"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_13sdp" />
+
+                    <RelativeLayout
+                        android:id="@+id/insuranceImage"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_marginStart="@dimen/_20sdp"
+                        android:layout_marginTop="@dimen/_20sdp"
+                        android:layout_marginEnd="@dimen/_20sdp"
+                        android:background="@drawable/doted_curved_rect"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:id="@+id/uploadInsurance"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/upload" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_marginStart="@dimen/_10sdp"
+                            android:layout_toRightOf="@+id/uploadInsurance"
+                            android:fontFamily="@font/allroundgothicmedium"
+                            android:gravity="start"
+                            android:text="@string/upload_image"
+                            android:textColor="@color/green"
+                            android:textSize="@dimen/_11sdp" />
+
+                    </RelativeLayout>
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone"
+                        android:layoutDirection="locale"
+                        android:layout_marginStart="@dimen/_20sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_marginEnd="@dimen/_20sdp"
+                        android:id="@+id/insuranceRV"/>
+
+                    <TextView
+                        android:id="@+id/insurance_more"
+                        android:layout_width="@dimen/_80sdp"
+                        android:layout_height="@dimen/_30sdp"
+                        android:layout_gravity="end"
+                        android:layout_marginLeft="@dimen/_20sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_marginRight="@dimen/_20sdp"
+                        android:background="@drawable/login_button"
+                        android:fontFamily="@font/kumbhsansbold"
+                        android:gravity="center"
+                        android:text="@string/add_more"
+                        android:onClick="addMoreImagesInsurance"
+                        android:visibility="gone"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_12sdp" />
+
+
+
+                    <RelativeLayout
+                        android:id="@+id/insurance_msg"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_marginStart="@dimen/_20sdp"
+                        android:layout_marginTop="@dimen/_20sdp"
+                        android:layout_marginEnd="@dimen/_20sdp"
+                        android:background="@drawable/doted_curved_rect"
+                        android:gravity="center"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_marginStart="@dimen/_10sdp"
+                            android:fontFamily="@font/allroundgothicmedium"
+                            android:gravity="start"
+                            android:text="@string/image_selected"
+                            android:textColor="@color/green"
+                            android:textSize="@dimen/_11sdp" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/buttonsLayout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_55sdp"
+            android:paddingBottom="@dimen/_10sdp"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:background="@color/white">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:layout_weight="1"
+                android:background="@drawable/login_button_white"
+                android:fontFamily="@font/kumbhsansbold"
+                android:gravity="center"
+                android:onClick="backPressed"
+                android:text="Back"
+                android:textAllCaps="true"
+                android:visibility="gone"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:layout_weight="1"
+                android:background="@drawable/login_button"
+                android:fontFamily="@font/kumbhsansbold"
+                android:gravity="center"
+                android:onClick="nextClick"
+                android:text="@string/submit"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_15sdp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</layout>

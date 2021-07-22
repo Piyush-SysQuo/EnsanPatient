@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/_10sdp"
+    tools:context=".view.fragment.addresses.view.MakeAddressDefault">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/allroundgothicmedium"
+        android:text="@string/make_address_as_default"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_14sdp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:text="@string/set_as_default"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:button="@null"
+            android:id="@+id/checkBox"
+            android:drawablePadding="@dimen/_5sdp"
+            android:textSize="@dimen/_13sdp"
+            android:fontFamily="@font/kumbhsansregular"
+            android:drawableLeft="?android:attr/listChoiceIndicatorMultiple"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:background="@drawable/login_button"
+        android:fontFamily="@font/kumbhsansbold"
+        android:gravity="center"
+        android:id="@+id/btn_add"
+        android:text="@string/confirm"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_14sdp" />
+
+</LinearLayout>

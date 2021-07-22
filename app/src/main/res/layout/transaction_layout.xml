@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_10sdp"
+    android:elevation="@dimen/_2sdp"
+    android:orientation="vertical"
+    android:padding="@dimen/_5sdp"
+    app:cardCornerRadius="@dimen/_5sdp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_10sdp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:src="@drawable/ic_paid_to" />
+
+        <LinearLayout
+            android:id="@+id/msgLayout"
+            android:layout_width="@dimen/_130sdp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_toEndOf="@+id/img"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/msgTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/kumbhsansregular"
+                android:text="Paid to Caregiver"
+                android:textSize="@dimen/_12sdp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/invoiceTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Invoice No. 39873"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:fontFamily="@font/kumbhsansregular"
+                android:textColor="@color/ensan_cool_gray" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/dateTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="27-02-2020"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:fontFamily="@font/kumbhsansregular"
+            android:textColor="@color/ensan_cool_gray"
+            android:layout_toEndOf="@id/msgLayout"
+            android:layout_alignParentEnd="true"
+            android:gravity="end"/>
+
+        <TextView
+            android:id="@+id/amtTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="22 SAR"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:fontFamily="@font/kumbhsansregular"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12sdp"
+            android:layout_toEndOf="@id/msgLayout"
+            android:layout_below="@id/dateTv"
+            android:layout_alignParentEnd="true"
+            android:gravity="end"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

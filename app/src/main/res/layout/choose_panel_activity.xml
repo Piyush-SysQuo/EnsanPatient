@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:background="@drawable/language_bg"
+        tools:context=".view.activity.choosepanal.ChoosePanelActivity">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_15sdp"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:id="@+id/englishLayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_60sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/white_rect"
+                android:onClick="patientClick">
+                <ImageView
+                    android:id="@+id/englishIV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_5sdp"
+                    android:src="@drawable/patient" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="@font/allroundgothicmedium"
+                    android:padding="@dimen/_15sdp"
+                    android:text="@string/signup_as_patient"
+                    android:layout_toRightOf="@+id/englishIV"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_13sdp" />
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/arabicLayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_60sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:background="@drawable/white_rect"
+                android:onClick="caregiverClick">
+                <ImageView
+                    android:id="@+id/arabicIv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:padding="@dimen/_5sdp"
+                    android:src="@drawable/caregiver" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="@font/allroundgothicmedium"
+                    android:padding="@dimen/_15sdp"
+                    android:text="@string/signup_as_caregiver"
+                    android:layout_toRightOf="@+id/arabicIv"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_13sdp" />
+
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</layout>

@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ensan_blue"
+    tools:context=".view.activity.invoice.view.InvoiceActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/topLayout">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/forward"
+            android:rotation="180"
+            android:id="@+id/imgback"
+            android:padding="@dimen/_20sdp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:fontFamily="@font/allroundgothicmedium"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_17sdp"
+            android:text="@string/invoice_details"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/invoiceSummaryLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:layout_below="@id/topLayout">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/paid_to_caregiver"
+                android:textSize="@dimen/_14sdp"
+                android:gravity="start"
+                android:fontFamily="@font/kumbhsansregular"
+                android:textColor="@color/white"/>
+            <TextView
+                android:id="@+id/priceTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_18sdp"
+                android:gravity="start"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:fontFamily="@font/kumbhsansregular"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/invoiceNumTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/invoice_no"
+                android:textSize="@dimen/_14sdp"
+                android:gravity="end"
+                android:fontFamily="@font/kumbhsansregular"
+                android:textColor="@color/white"/>
+            <LinearLayout
+                android:id="@+id/actionsLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="end"
+                android:gravity="end"
+                android:layout_marginTop="@dimen/_5sdp">
+
+                <ImageView
+                    android:id="@+id/downloadButton"
+                    android:layout_width="@dimen/_28sdp"
+                    android:layout_height="@dimen/_28sdp"
+                    android:src="@drawable/ic_download_file"
+                    android:layout_marginEnd="@dimen/_10sdp"/>
+
+                <ImageView
+                    android:id="@+id/shareButton"
+                    android:layout_width="@dimen/_28sdp"
+                    android:layout_height="@dimen/_28sdp"
+                    android:src="@drawable/ic_share_file"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:paddingStart="@dimen/_20sdp"
+        android:paddingEnd="@dimen/_20sdp"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:visibility="visible"
+        android:layout_below="@id/invoiceSummaryLayout"
+        android:background="@drawable/white_curved_drawable">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/_40sdp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/services"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_14sdp"
+                    android:fontFamily="@font/allroundgothicmedium" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:weightSum="12"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:layout_marginEnd="@dimen/_20sdp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="5"
+                        android:layout_height="wrap_content"
+                        android:text="@string/service"
+                        android:textColor="@color/ensan_blue"
+                        android:textSize="@dimen/_12sdp"
+                        android:fontFamily="@font/kumbhsansbold"
+                        android:gravity="start"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="3.5"
+                        android:layout_height="wrap_content"
+                        android:text="Commission"
+                        android:textColor="@color/ensan_blue"
+                        android:textSize="@dimen/_12sdp"
+                        android:fontFamily="@font/kumbhsansbold"
+                        android:gravity="center"
+                        android:visibility="invisible"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="3.5"
+                        android:layout_height="wrap_content"
+                        android:text="@string/paid"
+                        android:textColor="@color/ensan_blue"
+                        android:textSize="@dimen/_12sdp"
+                        android:fontFamily="@font/kumbhsansbold"
+                        android:gravity="end"/>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:background="@color/ensan_cool_gray"/>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/invoiceItemsRV"
+                    tools:itemCount="4"
+                    tools:listitem="@layout/invoice_layout"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:id="@+id/extraLayout">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/extra_charges"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_14sdp"
+                        android:fontFamily="@font/allroundgothicmedium"
+                        android:layout_marginTop="@dimen/_20sdp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:weightSum="12"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="@dimen/_20sdp"
+                        android:layout_marginStart="@dimen/_20sdp"
+                        android:layout_marginEnd="@dimen/_20sdp">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="5"
+                            android:layout_height="wrap_content"
+                            android:text="@string/charge_type"
+                            android:textColor="@color/ensan_blue"
+                            android:textSize="@dimen/_12sdp"
+                            android:fontFamily="@font/kumbhsansbold"
+                            android:gravity="start"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="3.5"
+                            android:layout_height="wrap_content"
+                            android:text="Commission"
+                            android:textColor="@color/ensan_blue"
+                            android:textSize="@dimen/_12sdp"
+                            android:fontFamily="@font/kumbhsansbold"
+                            android:gravity="center"
+                            android:visibility="invisible"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="3.5"
+                            android:layout_height="wrap_content"
+                            android:text="@string/paid"
+                            android:textColor="@color/ensan_blue"
+                            android:textSize="@dimen/_12sdp"
+                            android:fontFamily="@font/kumbhsansbold"
+                            android:gravity="end"/>
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_1sdp"
+                        android:layout_marginTop="@dimen/_15sdp"
+                        android:background="@color/ensan_cool_gray"/>
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/extraChargesRV"
+                        tools:itemCount="2"
+                        tools:listitem="@layout/invoice_layout"/>
+
+
+                </LinearLayout>
+
+
+
+
+                <LinearLayout
+                    android:id="@+id/taxLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:paddingTop="@dimen/_10sdp"
+                    android:paddingBottom="@dimen/_10sdp"
+                    android:paddingStart="@dimen/_20sdp"
+                    android:paddingEnd="@dimen/_20sdp"
+                    android:background="@color/gray">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="7"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tax"
+                        android:textSize="@dimen/_12sdp"
+                        android:textColor="@color/ensan_soft_gray"
+                        android:fontFamily="@font/kumbhsansbold"
+                        android:gravity="start"/>
+
+                    <TextView
+                        android:id="@+id/taxAmountTV"
+                        android:layout_width="0dp"
+                        android:layout_weight="3"
+                        android:layout_height="wrap_content"
+                        android:text="0 SAR"
+                        android:textSize="@dimen/_12sdp"
+                        android:textColor="@color/ensan_soft_gray"
+                        android:fontFamily="@font/kumbhsansregular"
+                        android:gravity="end"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/dueLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:layout_marginEnd="@dimen/_20sdp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="7"
+                        android:layout_height="wrap_content"
+                        android:text="@string/total"
+                        android:textSize="@dimen/_12sdp"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/kumbhsansbold"
+                        android:gravity="start"/>
+
+                    <TextView
+                        android:id="@+id/dueAmountTV"
+                        android:layout_width="0dp"
+                        android:layout_weight="3"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_12sdp"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/kumbhsansbold"
+                        android:gravity="end"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/totalLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    android:layout_marginBottom="@dimen/_20sdp"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:layout_marginEnd="@dimen/_20sdp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="7"
+                        android:layout_height="wrap_content"
+                        android:text="@string/totalamt"
+                        android:textSize="@dimen/_12sdp"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/kumbhsansbold"
+                        android:gravity="start"/>
+
+                    <TextView
+                        android:id="@+id/totalAmountTV"
+                        android:layout_width="0dp"
+                        android:layout_weight="3"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_12sdp"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/kumbhsansbold"
+                        android:gravity="end"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+</RelativeLayout>

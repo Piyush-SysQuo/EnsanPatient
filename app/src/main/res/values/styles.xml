@@ -1,0 +1,50 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="bottomSheetDialogTheme">@style/AppBottomSheetDialogTheme</item>
+    </style>
+
+
+    <style name="DatePickerTheme" parent="@android:style/Theme.Holo.Light.Dialog.MinWidth">
+        <item name="android:windowMinWidthMajor">@android:dimen/dialog_min_width_major</item>
+        <item name="android:windowMinWidthMinor">@android:dimen/dialog_min_width_minor</item>
+    </style>
+
+    <style name="ImagePickerTheme" parent="ef_BaseTheme">
+        <item name="colorPrimary">#607D8B</item>
+        <item name="colorPrimaryDark">#455A64</item>
+        <item name="colorAccent">@color/ef_grey</item>
+    </style>
+
+    <style name="AppBottomSheetDialogTheme"
+        parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/AppModalStyle</item>
+    </style>
+
+    <style name="AppModalStyle"
+        parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/top_white_curved</item>
+    </style>
+
+    <!-- Custom checkout theme -->
+    <style name="NewCheckoutTheme" parent="Theme.Checkout.Light">
+        <item name="headerBackground">@color/ensan_blue</item>
+        <item name="cancelButtonTintColor">@android:color/white</item>
+     <item name="listMarkTintColor">@color/ensan_blue</item>
+     <item name="cameraTintColor">@color/ensan_blue</item>
+        <item name="checkboxButtonTintColor">@color/ensan_blue</item>
+        <item name="checkoutButtonStyle">@style/NewCheckoutTheme.Button</item>
+    </style>
+
+
+    <style name="NewCheckoutTheme.Button" parent="Checkout.Button.Light">
+      <item name="android:background">@color/ensan_soft_green</item>
+    </style>
+
+    <style name="customRatingBar" parent="android:style/Widget.Material.RatingBar.Small"/>
+
+</resources>

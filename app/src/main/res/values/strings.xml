@@ -1,0 +1,964 @@
+<resources>
+    <string name="app_name">Ensan Patient</string>
+    <string name="select_language">Select Language</string>
+    <string name="english">English</string>
+    <string name="arabic">Arabic</string>
+    <string name="signup_as_caregiver">Signup as Caregiver</string>
+    <string name="signup_as_patient">Signup as Patient</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_an_account_sign_up">Don\'t have an account? Sign Up</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="forgot_password_title">Forgot Password</string>
+    <string name="please_enter_your_email_below_to_receive_your_password_reset_instructions">Please enter your email below to receive your password reset instructions.</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="iqma_national_id">Iqama / National ID</string>
+    <string name="password">Password</string>
+    <string name="loginemailerror">Enter your email id</string>
+    <string name="loginepwderror">Enter your password</string>
+    <string name="errormsg">Something went wrong…!</string>
+    <string name="i_accept_all_terms_and_conditions">I accept all privacy policy and terms!</string>
+    <string name="nameerror">Enter your name</string>
+    <string name="familynameerror">Enter your family name</string>
+    <string name="emailerror">Enter a valid email id</string>
+    <string name="mobileerror">Enter your mobile number</string>
+    <string name="pwderror">Enter the password</string>
+    <string name="passmatcherror">Please retype your password</string>
+    <string name="acceptcondtionerror">Please accept terms and conditions!</string>
+    <string name="doberror">Choose your date of birth</string>
+    <string name="name">Name</string>
+    <string name="family_name">Family Name</string>
+    <string name="dob">Date of birth</string>ng>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="otperror">Invalid otp</string>
+    <string name="gendererror">Please select gender</string>
+    <string name="patternerror">Password must contain at least one digit, upper case letter and special characters</string>
+    <string name="pwdsizeerror">Password must contain 6 digit</string>
+    <string name="number_of_children">Enter Number of children</string>
+    <string name="height">Height (cm)</string>
+    <string name="weight">Weight (kg)</string>
+    <string name="emergency_numbers">Emergency Numbers (5XXXXXXXX)</string>
+    <string name="nochilderror">Enter No. of children\'s</string>
+    <string name="heighterror">Enter your height</string>
+    <string name="weighterror">Enter your weight</string>
+    <string name="change_your_email">Change your email</string>
+    <string name="bloodgrperror">Please select your blood group</string>
+    <string name="emergencynoerror">Enter your emergency contact number</string>
+    <string name="adderror">Enter your address</string>
+    <string name="pboxerror">Enter your PO Box</string>
+    <string name="cityerror">Enter your city name</string>
+    <string name="reset">RESET</string>
+    <string name="countryerror">Please choose your country name</string>
+    <string name="family_members">Family Members</string>
+    <string name="name_of_patient">Name of patient</string>
+    <string name="phone_no">Phone no.</string>
+    <string name="nationality">Nationality</string>
+    <string name="gender">Gender</string>
+    <string name="marital_status">Marital Status</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="email">Email</string>
+    <string name="emergency_contact_number">Emergency Contact Number</string>
+    <string name="address">Address</string>
+    <string name="personal_details">Personal Details</string>
+    <string name="add_new">Add New +</string>
+    <string name="continue_and_complete_profile">continue and complete profile</string>
+    <string name="first_name_of_patient">First Name of Patient</string>
+    <string name="last_name_of_patient">Last Name of Patient</string>
+    <string name="fielderror">Field Required</string>
+    <string name="delete_image">Delete Image</string>
+    <string name="complete_medical_history">Complete Medical History</string>
+    <string name="medical_condition">Medical Condition</string>
+    <string name="surgery">Surgical History</string>
+    <string name="medication_routine">Medication Routine</string>
+    <string name="trauma">Trauma</string>
+    <string name="comorbidities">Chronic diseases (Comorbidities)</string>
+    <string name="general_condition_mobility">General Condition (Mobility)</string>
+    <string name="write_here">Write Here</string>
+    <string name="_100_words_limitation">100 Words Limitation</string>
+    <string name="diet">Diet</string>
+    <string name="the_paleo_diet">The Paleo Diet</string>
+    <string name="the_blood_type_diet">The Blood Type Diet</string>
+    <string name="the_vegan_diet">The Vegan Diet</string>
+    <string name="the_mediterranean_diet">The Mediterranean Diet</string>
+    <string name="raw_food_diet">Raw Food Diet</string>
+    <string name="activities">Level of Activities</string>
+    <string name="smoke">Smoking</string>
+    <string name="exercise">Exercise routine</string>
+    <string name="employment">Type of work</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="my_profile">My Profile</string>
+    <string name="save_cards">Saved Cards</string>
+    <string name="smoking">Smoking</string>
+    <string name="excercise">Exercise</string>
+    <string name="id_verification">ID Verification</string>
+    <string name="upload_image">Upload Image</string>
+    <string name="upload_insurance_card">Upload Insurance card</string>
+    <string name="retry">Please Retry…!</string>
+    <string name="image_uploaded">Image Uploaded</string>
+    <string name="add_your_address">Add Your Address</string>
+    <string name="of_patient">Name Of Patient</string>
+    <string name="complete_patient_profile">Complete Patient Profile</string>
+    <string name="add_member">Add Member</string>
+    <string name="relationshiperror">Please Choose Relationship</string>
+    <string name="typeerroe">Please choose type</string>
+    <string name="chooserelationship">Choose Relationship</string>
+    <string name="choosetype">Choose type</string>
+    <string name="save_btn">Save</string>
+    <string name="next">Next</string>
+    <string name="save_diet">Save Diet</string>
+    <string name="save_activity">Save Activity</string>
+    <string name="add_emp">Add Emp.</string>
+    <string name="deserror">Please enter description</string>
+    <string name="are_you_working">Are you Currently Employed?</string>
+    <string name="allergy">Allergy</string>
+    <string name="drug_allergy">Drug Allergy</string>
+    <string name="food_allergy">Food Allergy</string>
+    <string name="others">Others</string>
+    <string name="back">Back</string>
+    <string name="update_profile">Update profile</string>
+    <string name="select_time">Select Time</string>
+    <string name="search_service">Search Service</string>
+    <string name="book_now">Book now</string>
+    <string name="ok">Okay</string>
+    <string name="special_note">Special Note (optional)</string>
+    <string name="to_date">To Date</string>
+    <string name="from_date">From Date</string>
+    <string name="past">Past</string>
+    <string name="current">Current</string>
+    <string name="noterror">No notes</string>
+    <string name="profile">Profile</string>
+    <string name="verified">Verified</string>
+    <string name="dummy_user_name">Mohammed Salim</string>
+    <string name="dummy_user_location">Sharjah</string>
+    <string name="dummy_user_price">47 SAR /hr</string>
+    <string name="dummy_rating_count">(10)</string>
+    <string name="dummy_cared_for_text">Cared for 1 Family</string>
+    <string name="dummy_exp_text">• 2 yrs</string>
+    <string name="dummy_user_age">• 26 yrs old</string>
+    <string name="background_check">Background Check</string>
+    <string name="about_user_text">About Salim</string>
+    <string name="lipsum">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s type and scrambled it to make a book.</string>
+    <string name="dummy_user_nationality">UAE</string>
+    <string name="dummy_user_qualification">Bachelor of Pharmacy</string>
+    <string name="services">Services</string>
+    <string name="view_profile">View Profile</string>
+    <string name="dummy_lang">Arabic</string>
+    <string name="dummy_service">Emergency Department</string>
+    <string name="languages">Languages</string>
+    <string name="qualification">Qualification</string>
+    <string name="booking_history">Booking History</string>
+    <string name="accepted">Accepted</string>
+    <string name="on_the_way">On the way</string>
+    <string name="completed">Completed</string>
+    <string name="doberrors">You are below 18</string>
+    <string name="click_here">Click Here</string>
+    <string name="accept">Accept</string>
+
+    <string name="google_maps_key">AIzaSyDHbEyZ1dlCEYCKB0dRma62EE1v3saZYK8</string>
+
+    <string name="select_family_member">Select Family Member</string>
+    <string name="upload_profile_photo">Upload Profile Photo</string>
+    <string name="pay_now">PAY NOW</string>
+    <string name="extra_charges">Extra Charges</string>
+    <string name="total">Due amount</string>
+    <string name="doctor_visit">Doctor Visit</string>
+    <string name="insurance_card">Insurance Card</string>
+    <string name="id_proof">ID Proof</string>
+    <string name="image_selected">Image Selected</string>
+    <string name="add_new_btn">Add New</string>
+    <string name="save">Save</string>
+    <string name="get_started">GET STARTED</string>
+    <string name="verification">Verification</string>
+    <string name="blood_group">Blood Group</string>
+    <string name="bmi">BMI</string>
+    <string name="medical_condition_history">Medical Condition History</string>
+    <string name="allergies">Allergies</string>
+    <string name="edit_medical_history">Edit Medical History</string>
+    <string name="clear_all">Clear All</string>
+    <string name="mark_all_as_read">Mark all as read</string>
+    <string name="total_balance">Total Balance</string>
+    <string name="dummy_spent">SAR 00</string>
+    <string name="dummy_balance">SAR 00</string>
+    <string name="total_spent">Money Spent</string>
+    <string name="transfer_money">Transfer Money →</string>
+    <string name="transaction_history">Transaction History</string>
+    <string name="cancel">Cancel</string>
+    <string name="support">Support</string>
+    <string name="paymenterror">Please Select a payment type</string>
+    <string name="natinalityerror">Please select Nationality</string>
+    <string name="maritalerror">Please choose marital status</string>
+    <string name="terms_and_condition">Privacy policy</string>
+    <string name="wallet">Wallet</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="po_box">PO Box</string>
+    <string name="card_type_visa_master_debit">Card Type (Visa, Master, Debit)</string>
+    <string name="card_number">Card Number</string>
+    <string name="expire_date">Expire Date</string>
+    <string name="cvv_number">CVV Number</string>
+    <string name="about_app">About App</string>
+    <string name="settings">Settings</string>
+    <string name="notifications">Notifications</string>
+    <string name="profilepicerror">Please upload your profile picture</string>
+    <string name="descriptionerror">Please enter description</string>
+    <string name="change_your_number">Change your number</string>
+    <string name="resend_otp">Resend OTP</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="title_activity_caregiver_list_maps">Map</string>
+    <string name="add_family_members">Add Family Member</string>
+    <string name="adult">Adult</string>
+    <string name="minor">Minor</string>
+    <string name="save_n_continue">Save &amp; Continue</string>
+    <string name="nameRequired">Name is mandatory</string>
+    <string name="phoneRequired">Phone Number is mandatory</string>
+    <string name="phoneError">Phone Number should not be more than 9 digits.</string>
+    <string name="medical_history">Medical History</string>
+    <string name="add_more">Add More</string>
+    <string name="okay">Okay</string>
+    <string name="home">Home</string>
+    <string name="mybooking">My Bookings</string>
+    <string name="myprofile">My Profile</string>
+    <string name="personalinfo">Personal Info</string>
+    <string name="about">About</string>
+    <string name="logout">Logout</string>
+    <string name="setting">Setting</string>
+    <string name="what_do_you_need">What do you need?</string>
+    <string name="id_proofs">ID Proofs</string>
+    <string name="type">Type</string>
+    <string name="relationship">Relationship</string>
+    <string name="activity">Activity</string>
+    <string name="children">Children</string>
+    <string name="location">Location</string>
+    <string name="notification">Notification</string>
+    <string name="privacy_amp_security">Privacy &amp; Security</string>
+    <string name="change_language">Change Language</string>
+    <string name="refund_policy">Refund Policy</string>
+    <string name="help_amp_support"><![CDATA[Help & Support]]></string>
+    <string name="mail_us">Mail Us</string>
+    <string name="call_us">Call Us</string>
+    <string name="otp_number">Please enter your OTP here</string>
+    <string name="remaining">"seconds remaining: "</string>
+    <string name="complete_profile">Complete Profile</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="natioanlity">Nationality</string>
+    <string name="saudi_arabia">Saudi Arabia</string>
+    <string name="singleMale">Single</string>
+    <string name="singleFeMale">Single</string>
+    <string name="married">Married</string>
+    <string name="select_blood_group">Select Blood Group</string>
+    <string name="a_pos">A+</string>
+    <string name="a_neg">A-</string>
+    <string name="b_pos">B+</string>
+    <string name="b_neg">B-</string>
+    <string name="ab_pos">AB+</string>
+    <string name="ab_neg">AB-</string>
+    <string name="o_pos">O+</string>
+    <string name="o_neg">O-</string>
+    <string name="selectcity">Select City</string>
+    <string name="abha">Abha</string>
+    <string name="ad_dilam">Ad-Dilam</string>
+    <string name="albwa">Al-Abwa</string>
+    <string name="artaweeiyah">Al Artaweeiyah</string>
+    <string name="bukayriyah">Al Bukayriyah</string>
+    <string name="baljurash">Baljurash</string>
+    <string name="bisha">Bisha</string>
+    <string name="bareg">Bareg</string>
+    <string name="buraydah">Buraydah</string>
+    <string name="al_bahah">Al Bahah</string>
+    <string name="buq_a">Buq a</string>
+    <string name="dammam">Dammam</string>
+    <string name="dhahran">Dhahran</string>
+    <string name="dhurma">Dhurma</string>
+    <string name="dahaban">Dahaban</string>
+    <string name="diriyah">Diriyah</string>
+    <string name="duba">Duba</string>
+    <string name="dumat">Dumat</string>
+    <string name="jandal">Al-Jandal</string>
+    <string name="dawadmi">Dawadmi</string>
+    <string name="gatgat">Gatgat</string>
+    <string name="gerrha">Gerrha</string>
+    <string name="gurayat">Gurayat</string>
+    <string name="gweiiyyah">Al-Gweiiyyah</string>
+    <string name="sudair">Hautat Sudair</string>
+    <string name="habaala">Habaala</string>
+    <string name="hajrah">Hajrah</string>
+    <string name="haql">Haql</string>
+    <string name="hareeq">Al-Hareeq</string>
+    <string name="harmah">Harmah</string>
+    <string name="Ha_il">Ha\'il</string>
+    <string name="tamim">Hotat Bani Tamim</string>
+    <string name="hofuf">Hofuf</string>
+    <string name="huraymila">Huraymila</string>
+    <string name="batin">Hafr Al-Batin</string>
+    <string name="jabal">Jabal Umm al Ru\'us</string>
+    <string name="jalajil">Jalajil</string>
+    <string name="al_jawf">Al Jawf</string>
+    <string name="jeddah">Jeddah</string>
+    <string name="jizan">Jizan</string>
+    <string name="jizan_economic">Jizan Economic City</string>
+    <string name="jubail">Jubail</string>
+    <string name="al_jafr">Al Jafr</string>
+    <string name="khafji">Khafji</string>
+    <string name="khaybar">Khaybar</string>
+    <string name="king_abdullah">King Abdullah Economic City</string>
+    <string name="khamis_mushayt">Khamis Mushayt</string>
+    <string name="alsaih">Al-Saih</string>
+    <string name="knowledge_economic">Knowledge Economic City</string>
+    <string name="medina">Medina</string>
+    <string name="khobar">Khobar</string>
+    <string name="al_khutt">Al-Khutt</string>
+    <string name="layla">Layla</string>
+    <string name="lihyan">Lihyan</string>
+    <string name="al_lith">Al Lith</string>
+    <string name="AlMajmaah">Al Majma\'ah</string>
+    <string name="Mastoorah">Mastoorah</string>
+    <string name="AlMikhwah">Al Mikhwah</string>
+    <string name="almubarraz">Al-Mubarraz</string>
+    <string name="AlMawain">Al Mawain</string>
+    <string name="Mecca">Mecca</string>
+    <string name="Medina">Medina</string>
+    <string name="Muzahmiyya">Muzahmiyya</string>
+    <string name="Najran">Najran</string>
+    <string name="AlNamas">Al-Namas</string>
+    <string name="Umluj">Umluj</string>
+    <string name="AlOmran">Al-Omran</string>
+    <string name="AlOyoon">Al-Oyoon</string>
+    <string name="Qadeimah">Qadeimah </string>
+    <string name="AlQunfudhah">Al Qunfudhah</string>
+    <string name="Rabigh">Rabigh</string>
+    <string name="Rafha">Rafha</string>
+    <string name="ArRass">Ar Rass</string>
+    <string name="RasTanura">Ras Tanura</string>
+    <string name="Riyadh">Riyadh</string>
+    <string name="RiyadhAl_Khabran">Riyadh Al-Khabran</string>
+    <string name="Rumailah">Rumailah</string>
+    <string name="SabtAlAlaya">Sabt Al Alaya</string>
+    <string name="SaratAbidah">Sarat Abidah</string>
+    <string name="Saihat">Saihat</string>
+    <string name="Safwacity">Safwa city</string>
+    <string name="Sakakah">Sakakah</string>
+    <string name="Sharurah">Sharurah</string>
+    <string name="Shaqraa">"Shaqraa</string>
+    <string name="Shaybah">Shaybah</string>
+    <string name="AsSulayyil">As Sulayyil</string>
+    <string name="Taif">Taif</string>
+    <string name="Tabuk">Tabuk</string>
+    <string name="Tanomah">Tanomah</string>
+    <string name="ATarout">Tarout</string>
+    <string name="Tayma">Tayma</string>
+    <string name="Thadiq">Thadiq</string>
+    <string name="Thuwal">Thuwal</string>
+    <string name="Thuqbah">Thuqbah</string>
+    <string name="Turaif">Turaif</string>
+    <string name="Tabarjall">Tabarjall</string>
+    <string name="Udhailiyah">Udhailiyah</string>
+    <string name="Al_Ula">Al-`Ula</string>
+    <string name="TUmAl_Sahek">TUm Al-Sahek</string>
+    <string name="Unaizahn">Unaizah</string>
+    <string name="Uqair">Uqair</string>
+    <string name="Uyayna">Uyayna </string>
+    <string name="UyunAlJiwa">Uyun AlJiwa </string>
+    <string name="Wadi_Al_Dawasir">Wadi Al-Dawasir </string>
+    <string name="AlWajh">Al Wajh </string>
+    <string name="Yanbu">Yanbu </string>
+    <string name="AzZaimah">Az Zaimah </string>
+    <string name="Zulfi">Zulfi </string>
+    <string name="select_country">Select Country</string>
+    <string name="locationerror">Your city seems to be out of Saudi Arabia. Please review your address.</string>
+    <string name="submit">Submit</string>
+    <string name="payment">Payment</string>
+    <string name="card_holder_name">Card Holder Name</string>
+    <string name="logininfo">Account created successfully! Click okay to login again.</string>
+    <string name="choose_relationship">Choose Relationship</string>
+    <string name="Son">Son</string>
+    <string name="Mother">Mother</string>
+    <string name="Father">Father</string>
+    <string name="Brother">Brother</string>
+    <string name="Sister">Sister</string>
+    <string name="GrandMother">GrandMother</string>
+    <string name="Daughter">Daughter</string>
+    <string name="Wife">Wife</string>
+    <string name="Husband">Husband</string>
+    <string name="drag_pin_to_reposition">Drag pin to reposition</string>
+    <string name="continue_">Continue</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="select_your_gender">Select Your Gender</string>
+    <string name="version"> Version :</string>
+    <string name="choose_date_amp_time">Choose Date &amp; Time</string>
+    <string name="booking_details">Booking Details</string>
+    <string name="in_the_next_24_hours_your_caregiver_will_review_your_nrequest_if_it_s_a_good_fit_they_will_accept_it_n_we_will_notify_you_via_email">In the next 24 hours, your caregiver will review and evaluate your request. We will notify you via email.</string>
+    <string name="km">km</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="update">Update</string>
+    <string name="plan_changed">Plan Changed</string>
+    <string name="costly">It\'s too costly</string>
+    <string name="caregiver">Caregiver not moving</string>
+    <string name="listed">My reason isn\'t listed</string>
+    <string name="cancel_booking">Cancel Booking</string>
+    <string name="notcancel">Don\'t Cancel</string>
+    <string name="carefor">"Cared for "</string>
+    <string name="abt">\"About \"</string>
+    <string name="booking_detail">Booking Detail</string>
+    <string name="request_sent">Request Sent</string>
+    <string name="proerror">Please upload profile picture</string>
+    <string name="idvererror">Please upload verification documents</string>
+    <string name="inseror">Please upload insurance</string>
+    <string name="choosedoc">Choose your documents</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="choose_gallery">Choose from Gallery</string>
+    <string name="choose_services">Choose Services</string>
+    <string name="book_appointments">Book Appointments</string>
+    <string name="_24x7_support">24x7 Support</string>
+    <string name="doceuperror">Please Upload Documents</string>
+    <string name="invalidselection">Invalid Selection</string>
+    <string name="freqerror">Please select Frequency</string>
+    <string name="dateeror">Please select date</string>
+    <string name="timeerror">Please select time</string>
+    <string name="incorrecttimeerror">Please select correct time</string>
+    <string name="iqamaerror">ID must start with 1 or 2</string>
+    <string name="exitmshg">Are you sure you want to exit?</string>
+    <string name="_5xxxxxxxxxx">5XXXXXXXX</string>
+    <string name="errorotp">The given email address not found</string>
+    <string name="divorced">Divorced</string>
+    <string name="widowed">Widowed</string>
+    <string name="separated">Separated</string>
+    <string name="select_marital_status">Please choose marital status</string>
+    <string name="select_nationality">Select Nationality</string>
+    <string name="save_address">Save Address</string>
+    <string name="neighbour">Neighbour</string>
+    <string name="save_your_address">Save Your Address</string>
+    <string name="landmarkerrror">Please enter landmark</string>
+    <string name="addresses">Addresses</string>
+    <string name="add_address">Add Address</string>
+    <string name="confirm">Confirm</string>
+    <string name="checkboxer">Please check checkbox</string>
+    <string name="make_address_as_default">Make address as default</string>
+    <string name="set_as_default">Set as default</string>
+    <string name="no_services_found">No services found!</string>
+    <string name="numbermsg">Please enter your OTP here</string>
+    <string name="change_phone_number">Change Phone Number</string>
+    <string name="reach_on_whatsapp">Reach out on WhatsApp</string>
+    <string name="user_manual">User Manual</string>
+    <string name="no_apps_error">No Apps found on your phone for this action.</string>
+    <string name="location_name">Location Name</string>
+    <string name="tagerror">Enter your location name</string>
+    <string name="add_notes">Add Notes</string>
+    <string name="cancelerror">Please choose your cancellation reason</string>
+    <string name="Select_Quantity">Select Quantity</string>
+    <string name="reason_for_cancel">Reason for cancel</string>
+    <string name="history">History</string>
+    <string name="single_visit">Single Visit</string>
+    <string name="medical_condition_description">Medical Condition Description</string>
+    <string name="surgery_description">Surgery Description</string>
+    <string name="medical_routine_description">Medical Routine Description</string>
+    <string name="trauma_description">Trauma Description</string>
+    <string name="comorbidities_description">Comorbidities Description</string>
+    <string name="general_condition_description">General Condition Description</string>
+    <string name="food_allergy_description">Food Allergy Description</string>
+    <string name="drug_allergy_description">Drug Allergy Description</string>
+    <string name="other_allergy_description">Other Allergy Description</string>
+    <string name="employment_description">Employment Description</string>
+    <string name="transactions">Transactions</string>
+    <string name="refund_policy_error">No refund policy can be found at this moment. Please try again later.</string>
+    <string name="frequency_error">Please select a frequency first</string>
+    <string name="no_service_error">Please select at least 1 service to continue.</string>
+    <string name="review">Review</string>
+    <string name="rating_and_review">Rating and Review</string>
+    <string name="submit_review">Submit</string>
+    <string name="not_now">Not now</string>
+    <string name="chooseprofile">Choose your profile picture</string>
+    <string name="no_booking_left">No booking left</string>
+    <string name="no_notification_left">No notification left</string>
+    <string name="no_transaction_left">No transaction found</string>
+    <string name="no_member_left">No member found</string>
+    <string name="no_card">No cards found</string>
+    <string name="add_IdProof">Add new</string>
+    <string name="add_qualification">Add Id Proof</string>
+    <string name="upload_idproof_documents">Upload Id proof documents</string>
+    <string name="add_insurance">Add Insurance</string>
+    <string name="phonenoerror">Phone number already exist</string>
+    <string name="phoneerrormsg">Phone number already exist</string>
+    <string name="no_insurance_left">No insurance card found</string>
+    <string name="no_id_left">No id proof found</string>
+    <string name="no_medical_history_found">No medical history found</string>
+    <string name="no_allergy_found">No allergy found</string>
+    <string name="no_diet_found">No diet found</string>
+    <string name="no_activity_found">No activity found</string>
+    <string name="no_employment_found">No employment found</string>
+    <string name="invalid_emergency_number">Invalid emergency number</string>
+    <string name="phonelengtherror">Phone number should be 9 digit</string>
+
+    <string name="diabetic_diet">The Diabetic Diet</string>
+    <string name="keto_diet">The Keto Diet</string>
+    <string name="vegan_diet">The Vegan Diet</string>
+    <string name="vegetarian_diet">The Vegetarian Diet</string>
+    <string name="raw_diet">Raw Food Diet</string>
+    <string name="law_salt_diet">Low Salt Diet</string>
+    <string name="zone_diet">Zone Diet</string>
+    <string name="please_choose_card">Please choose the type of card</string>
+    <string name="visa_maestro">VISA / Master Card</string>
+    <string name="mada">Mada Card</string>
+    <string name="click_to_pay">Click To Pay</string>
+    <string name="know_paid">Paid</string>
+    <string name="cannot_fetch_distance_error">Cannot fetch distance</string>
+    <string name="invoice_no">"Invoice No. "</string>
+    <string name="invoice_details">Invoice Details</string>
+    <string name="downloadingerror">Downloading failed...!</string>
+    <string name="downloadfile">Please click to download file</string>
+    <string name="paid_to_caregiver">Paid to Caregiver</string>
+    <string name="service">Service</string>
+    <string name="earning">Earning</string>
+    <string name="charge_type">Charge Type</string>
+    <string name="tax">Tax</string>
+    <string name="city">City</string>
+    <string name="postalError">Enter your postal code</string>
+    <string name="totalamt">Total</string>
+    <string name="paid">Paid</string>
+    <string name="profile_detail">Profile detail</string>
+    <string name="documents">Documents</string>
+    <string name="activities_title">Activities</string>
+    <string name="caregiver_not_available">Caregiver not available</string>
+    <string name="poboxerror">PO Box should be 5 digit</string>
+    <string name="no_care_giver_found">No caregiver found</string>
+    <string name="phoneerror5">Phone number should start with 5</string>
+
+
+    <string-array name="dialog_profile">
+        <item>@string/take_photo</item>
+        <item>@string/choose_gallery</item>
+        <item>@string/cancel</item>
+    </string-array>
+
+    <string-array name="cameralist">
+        <item>@string/take_photo</item>
+        <item>@string/choose_gallery</item>
+        <item>@string/cancel</item>
+    </string-array>
+
+    <string-array name="dialog_array">
+        <item>@string/plan_changed</item>
+        <item>@string/costly</item>
+        <item>@string/caregiver</item>
+        <item>@string/listed</item>
+    </string-array>
+
+    <string-array name="countryname">
+        <item>@string/select_country</item>
+        <item>@string/saudi_arabia</item>
+    </string-array>
+
+    <string-array name="relations">
+        <item>@string/choose_relationship</item>
+        <item>@string/Son</item>
+        <item>@string/Mother</item>
+        <item>@string/Father</item>
+        <item>@string/Brother</item>
+        <item>@string/Sister</item>
+        <item>@string/GrandMother</item>
+        <item>@string/Daughter</item>
+        <item>@string/Wife</item>
+        <item>@string/Husband</item>
+    </string-array>
+
+    <string-array name="country">
+        <item>@string/select_country</item>
+        <item>@string/saudi_arabia</item>
+    </string-array>
+
+    <string-array name="city">
+        <item>@string/selectcity</item>
+        <item>@string/abha</item>
+        <item>@string/ad_dilam</item>
+        <item>@string/albwa</item>
+        <item>@string/artaweeiyah</item>
+        <item>@string/bukayriyah</item>
+        <item>@string/baljurash</item>
+        <item>@string/bisha</item>
+        <item>@string/bareg</item>
+        <item>@string/buraydah</item>
+        <item>@string/al_bahah</item>
+        <item>@string/buq_a</item>
+        <item>@string/dammam</item>
+        <item>@string/dhahran</item>
+        <item>@string/dhurma</item>
+        <item>@string/dahaban</item>
+        <item>@string/diriyah</item>
+        <item>@string/duba</item>
+        <item>@string/dumat</item>
+        <item>@string/jandal</item>
+        <item>@string/dawadmi</item>
+        <item>@string/gatgat</item>
+        <item>@string/gerrha</item>
+        <item>@string/gurayat</item>
+        <item>@string/gweiiyyah</item>
+        <item>@string/sudair</item>
+        <item>@string/habaala</item>
+        <item>@string/hajrah</item>
+        <item>@string/haql</item>
+        <item>@string/hareeq</item>
+        <item>@string/harmah</item>
+        <item>@string/Ha_il</item>
+        <item>@string/tamim</item>
+        <item>@string/hofuf</item>
+        <item>@string/huraymila</item>
+        <item>@string/batin</item>
+        <item>@string/jabal</item>
+        <item>@string/jalajil</item>
+        <item>@string/al_jawf</item>
+        <item>@string/jeddah</item>
+        <item>@string/jizan</item>
+        <item>@string/jizan_economic</item>
+        <item>@string/jubail</item>
+        <item>@string/al_jafr</item>
+        <item>@string/khafji</item>
+        <item>@string/khaybar</item>
+        <item>@string/king_abdullah</item>
+        <item>@string/khamis_mushayt</item>
+        <item>@string/alsaih</item>
+        <item>@string/knowledge_economic</item>
+        <item>@string/medina</item>
+        <item>@string/khobar</item>
+        <item>@string/al_khutt</item>
+        <item>@string/layla</item>
+        <item>@string/lihyan</item>
+        <item>@string/al_lith</item>
+        <item>@string/AlMajmaah</item>
+        <item>@string/Mastoorah</item>
+        <item>@string/AlMikhwah</item>
+        <item>@string/almubarraz</item>
+        <item>@string/AlMawain</item>
+        <item>@string/Mecca</item>
+        <item>@string/Medina</item>
+        <item>@string/Muzahmiyya</item>
+        <item>@string/Najran</item>
+        <item>@string/AlNamas</item>
+        <item>@string/Umluj</item>
+        <item>@string/AlOmran</item>
+        <item>@string/AlOyoon</item>
+        <item>@string/Qadeimah</item>
+        <item>@string/AlQunfudhah</item>
+        <item>@string/Rabigh</item>
+        <item>@string/Rafha</item>
+        <item>@string/ArRass</item>
+        <item>@string/RasTanura</item>
+        <item>@string/Riyadh</item>
+        <item>@string/RiyadhAl_Khabran</item>
+        <item>@string/Rumailah</item>
+        <item>@string/SabtAlAlaya</item>
+        <item>@string/SaratAbidah</item>
+        <item>@string/Saihat</item>
+        <item>@string/Safwacity</item>
+        <item>@string/Sakakah</item>
+        <item>@string/Sharurah</item>
+        <item>@string/Shaqraa</item>
+        <item>@string/Shaybah</item>
+        <item>@string/AsSulayyil</item>
+        <item>@string/Taif</item>
+        <item>@string/Tabuk</item>
+        <item>@string/Tanomah</item>
+        <item>@string/ATarout</item>
+        <item>@string/Tayma</item>
+        <item>@string/Thadiq</item>
+        <item>@string/Thuwal</item>
+        <item>@string/Thuqbah</item>
+        <item>@string/Turaif</item>
+        <item>@string/Tabarjall</item>
+        <item>@string/Udhailiyah</item>
+        <item>@string/Al_Ula</item>
+        <item>@string/TUmAl_Sahek</item>
+        <item>@string/Unaizahn</item>
+        <item>@string/Uqair</item>
+        <item>@string/Uyayna</item>
+        <item>@string/UyunAlJiwa</item>
+        <item>@string/Wadi_Al_Dawasir</item>
+        <item>@string/AlWajh</item>
+        <item>@string/Yanbu</item>
+        <item>@string/AzZaimah</item>
+        <item>@string/Zulfi</item>
+    </string-array>
+
+    <string-array name="natioanlity">
+        <item>@string/natioanlity</item>
+        <item>@string/saudi_arabia</item>
+    </string-array>
+
+    <string-array name="maritalstatus">
+        <item>@string/marital_status</item>
+        <item>@string/singleFeMale</item>
+        <item>@string/married</item>
+        <item>@string/divorced</item>
+        <item>@string/widowed</item>
+        <item>@string/separated</item>
+    </string-array>
+
+    <string-array name="maritalstatusmale">
+        <item>@string/marital_status</item>
+        <item>@string/singleMale</item>
+        <item>@string/married</item>
+        <item>@string/divorced</item>
+        <item>@string/widowed</item>
+        <item>@string/separated</item>
+    </string-array>
+
+    <string-array name="countries_array">
+        <item>@string/natioanlity</item>
+        <item>Saudi Arabia</item>
+        <item>Afghanistan</item>
+        <item>Albania</item>
+        <item>Algeria</item>
+        <item>American Samoa</item>
+        <item>Andorra</item>
+        <item>Angola</item>
+        <item>Anguilla</item>
+        <item>Antarctica</item>
+        <item>Antigua and Barbuda</item>
+        <item>Argentina</item>
+        <item>Armenia</item>
+        <item>Aruba</item>
+        <item>Australia</item>
+        <item>Austria</item>
+        <item>Azerbaijan</item>
+        <item>Bahrain</item>
+        <item>Bangladesh</item>
+        <item>Barbados</item>
+        <item>Belarus</item>
+        <item>Belgium</item>
+        <item>Belize</item>
+        <item>Benin</item>
+        <item>Bermuda</item>
+        <item>Bhutan</item>
+        <item>Bolivia</item>
+        <item>Bosnia and Herzegovina</item>
+        <item>Botswana</item>
+        <item>Bouvet Island</item>
+        <item>Brazil</item>
+        <item>British Indian Ocean Territory</item>
+        <item>British Virgin Islands</item>
+        <item>Brunei</item>
+        <item>Bulgaria</item>
+        <item>Burkina Faso</item>
+        <item>Burundi</item>
+        <item>Cambodia</item>
+        <item>Cameroon</item>
+        <item>Canada</item>
+        <item>Cape Verde</item>
+        <item>Cayman Islands</item>
+        <item>Central African Republic</item>
+        <item>Chad</item>
+        <item>Chile</item>
+        <item>China</item>
+        <item>Christmas Island</item>
+        <item>Cocos (Keeling) Islands</item>
+        <item>Colombia</item>
+        <item>Comoros</item>
+        <item>Congo</item>
+        <item>Cook Islands</item>
+        <item>Costa Rica</item>
+        <item>Cote d\'Ivoire</item>
+        <item>Croatia</item>
+        <item>Cuba</item>
+        <item>Cyprus</item>
+        <item>Czech Republic</item>
+        <item>Democratic Republic of the Congo</item>
+        <item>Denmark</item>
+        <item>Djibouti</item>
+        <item>Dominica</item>
+        <item>Dominican Republic</item>
+        <item>East Timor</item>
+        <item>Ecuador</item>
+        <item>Egypt</item>
+        <item>El Salvador</item>
+        <item>Equatorial Guinea</item>
+        <item>Eritrea</item>
+        <item>Estonia</item>
+        <item>Ethiopia</item>
+        <item>Faeroe Islands</item>
+        <item>Falkland Islands</item>
+        <item>Fiji</item>
+        <item>Finland</item>
+        <item>Former Yugoslav Republic of Macedonia</item>
+        <item>France</item>
+        <item>French Guiana</item>
+        <item>French Polynesia</item>
+        <item>French Southern Territories</item>
+        <item>Gabon</item>
+        <item>Georgia</item>
+        <item>Germany</item>
+        <item>Ghana</item>
+        <item>Gibraltar</item>
+        <item>Greece</item>
+        <item>Greenland</item>
+        <item>Grenada</item>
+        <item>Guadeloupe</item>
+        <item>Guam</item>
+        <item>Guatemala</item>
+        <item>Guinea</item>
+        <item>Guinea-Bissau</item>
+        <item>Guyana</item>
+        <item>Haiti</item>
+        <item>Heard Island and McDonald Islands</item>
+        <item>Honduras</item>
+        <item>Hong Kong</item>
+        <item>Hungary</item>
+        <item>Iceland</item>
+        <item>India</item>
+        <item>Indonesia</item>
+        <item>Iran</item>
+        <item>Iraq</item>
+        <item>Ireland</item>
+        <item>Israel</item>
+        <item>Italy</item>
+        <item>Jamaica</item>
+        <item>Japan</item>
+        <item>Jordan</item>
+        <item>Kazakhstan</item>
+        <item>Kenya</item>
+        <item>Kiribati</item>
+        <item>Kuwait</item>
+        <item>Kyrgyzstan</item>
+        <item>Laos</item>
+        <item>Latvia</item>
+        <item>Lebanon</item>
+        <item>Lesotho</item>
+        <item>Liberia</item>
+        <item>Libya</item>
+        <item>Liechtenstein</item>
+        <item>Lithuania</item>
+        <item>Luxembourg</item>
+        <item>Macau</item>
+        <item>Madagascar</item>
+        <item>Malawi</item>
+        <item>Malaysia</item>
+        <item>Maldives</item>
+        <item>Mali</item>
+        <item>Malta</item>
+        <item>Marshall Islands</item>
+        <item>Martinique</item>
+        <item>Mauritania</item>
+        <item>Mauritius</item>
+        <item>Mayotte</item>
+        <item>Mexico</item>
+        <item>Micronesia</item>
+        <item>Moldova</item>
+        <item>Monaco</item>
+        <item>Mongolia</item>
+        <item>Montenegro</item>
+        <item>Montserrat</item>
+        <item>Morocco</item>
+        <item>Mozambique</item>
+        <item>Myanmar</item>
+        <item>Namibia</item>
+        <item>Nauru</item>
+        <item>Nepal</item>
+        <item>Netherlands</item>
+        <item>Netherlands Antilles</item>
+        <item>New Caledonia</item>
+        <item>New Zealand</item>
+        <item>Nicaragua</item>
+        <item>Niger</item>
+        <item>Nigeria</item>
+        <item>Niue</item>
+        <item>Norfolk Island</item>
+        <item>North Korea</item>
+        <item>Northern Marianas</item>
+        <item>Norway</item>
+        <item>Oman</item>
+        <item>Pakistan</item>
+        <item>Palau</item>
+        <item>Panama</item>
+        <item>Papua New Guinea</item>
+        <item>Paraguay</item>
+        <item>Peru</item>
+        <item>Philippines</item>
+        <item>Pitcairn Islands</item>
+        <item>Poland</item>
+        <item>Portugal</item>
+        <item>Puerto Rico</item>
+        <item>Qatar</item>
+        <item>Reunion</item>
+        <item>Romania</item>
+        <item>Russia</item>
+        <item>Rwanda</item>
+        <item>Sqo Tome and Principe</item>
+        <item>Saint Helena</item>
+        <item>Saint Kitts and Nevis</item>
+        <item>Saint Lucia</item>
+        <item>Saint Pierre and Miquelon</item>
+        <item>Saint Vincent and the Grenadines</item>
+        <item>Samoa</item>
+        <item>San Marino</item>
+        <item>Senegal</item>
+        <item>Serbia</item>
+        <item>Seychelles</item>
+        <item>Sierra Leone</item>
+        <item>Singapore</item>
+        <item>Slovakia</item>
+        <item>Slovenia</item>
+        <item>Solomon Islands</item>
+        <item>Somalia</item>
+        <item>South Africa</item>
+        <item>South Georgia and the South Sandwich Islands</item>
+        <item>South Korea</item>
+        <item>South Sudan</item>
+        <item>Spain</item>
+        <item>Sri Lanka</item>
+        <item>Sudan</item>
+        <item>Suriname</item>
+        <item>Svalbard and Jan Mayen</item>
+        <item>Swaziland</item>
+        <item>Sweden</item>
+        <item>Switzerland</item>
+        <item>Syria</item>
+        <item>Taiwan</item>
+        <item>Tajikistan</item>
+        <item>Tanzania</item>
+        <item>Thailand</item>
+        <item>The Bahamas</item>
+        <item>The Gambia</item>
+        <item>Togo</item>
+        <item>Tokelau</item>
+        <item>Tonga</item>
+        <item>Trinidad and Tobago</item>
+        <item>Tunisia</item>
+        <item>Turkey</item>
+        <item>Turkmenistan</item>
+        <item>Turks and Caicos Islands</item>
+        <item>Tuvalu</item>
+        <item>Virgin Islands</item>
+        <item>Uganda</item>
+        <item>Ukraine</item>
+        <item>United Arab Emirates</item>
+        <item>United Kingdom</item>
+        <item>United States</item>
+        <item>United States Minor Outlying Islands</item>
+        <item>Uruguay</item>
+        <item>Uzbekistan</item>
+        <item>Vanuatu</item>
+        <item>Vatican City</item>
+        <item>Venezuela</item>
+        <item>Vietnam</item>
+        <item>Wallis and Futuna</item>
+        <item>Western Sahara</item>
+        <item>Yemen</item>
+        <item>Yugoslavia</item>
+        <item>Zambia</item>
+        <item>Zimbabwe</item>
+    </string-array>
+
+
+    <string-array name="blood_group">
+        <item>@string/select_blood_group</item>
+        <item>@string/a_pos</item>
+        <item>@string/a_neg</item>
+        <item>@string/b_pos</item>
+        <item>@string/b_neg</item>
+        <item>@string/ab_pos</item>
+        <item>@string/ab_neg</item>
+        <item>@string/o_pos</item>
+        <item>@string/o_neg</item>
+    </string-array>
+
+</resources>

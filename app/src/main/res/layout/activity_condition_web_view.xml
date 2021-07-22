@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/ensan_blue"
+        tools:context=".view.activity.aboutus.AboutAppActivity">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_20sdp"
+            android:rotation="180"
+            android:id="@+id/backBtn"
+            android:src="@drawable/forward" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:fontFamily="@font/allroundgothicmedium"
+            android:gravity="center"
+            android:text="@string/terms_and_condition"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_17sdp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_80sdp"
+            android:padding="@dimen/_10sdp"
+            android:background="@drawable/white_curved_drawable"
+            android:orientation="vertical">
+
+           <ScrollView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent">
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:padding="@dimen/_10sdp"
+                   android:layout_marginTop="@dimen/_10sdp"
+                   android:layout_marginLeft="@dimen/_10sdp"
+                   android:layout_marginRight="@dimen/_10sdp"
+                   android:id="@+id/webview" />
+
+
+           </ScrollView>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</layout>

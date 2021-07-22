@@ -1,0 +1,135 @@
+{
+  "project_info": {
+    "project_number": "471075569940",
+    "firebase_url": "https://ensan-1b044.firebaseio.com",
+    "project_id": "ensan-1b044",
+    "storage_bucket": "ensan-1b044.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:471075569940:android:c3d33b6dc03ce9fca9c201",
+        "android_client_info": {
+          "package_name": "ensane.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "471075569940-955hqsh0btfftq90qtfto7nh9dkbnqu2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ensane.com",
+            "certificate_hash": "9466bcebd0da426ad25f3284e974f4973b7f13ec"
+          }
+        },
+        {
+          "client_id": "471075569940-vhq3c1rt8nhhv6o3ntla6feicuq6ihgm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_H_HewY5RktFYGnAjc55-DuFnAI0HXqQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "471075569940-vhq3c1rt8nhhv6o3ntla6feicuq6ihgm.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "471075569940-oig1e2jf56ste38f406d41coaq3nha22.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ensan.caregiver"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:471075569940:android:43e0b512cc9a7bd2a9c201",
+        "android_client_info": {
+          "package_name": "ensane.patient"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "471075569940-e13ile35djp9o5qri0k5jf48vm2vuael.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ensane.patient",
+            "certificate_hash": "9466bcebd0da426ad25f3284e974f4973b7f13ec"
+          }
+        },
+        {
+          "client_id": "471075569940-vhq3c1rt8nhhv6o3ntla6feicuq6ihgm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_H_HewY5RktFYGnAjc55-DuFnAI0HXqQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "471075569940-vhq3c1rt8nhhv6o3ntla6feicuq6ihgm.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "471075569940-oig1e2jf56ste38f406d41coaq3nha22.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ensan.caregiver"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:471075569940:android:e83d1c2edecdab15a9c201",
+        "android_client_info": {
+          "package_name": "ensan.patientapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "471075569940-vhq3c1rt8nhhv6o3ntla6feicuq6ihgm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_H_HewY5RktFYGnAjc55-DuFnAI0HXqQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "471075569940-vhq3c1rt8nhhv6o3ntla6feicuq6ihgm.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "471075569940-oig1e2jf56ste38f406d41coaq3nha22.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ensan.caregiver"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

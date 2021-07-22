@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_10sdp"
+    android:elevation="@dimen/_2sdp"
+    android:orientation="vertical"
+    android:padding="@dimen/_5sdp"
+    app:cardCornerRadius="@dimen/_5sdp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layoutNoti"
+        android:padding="@dimen/_10sdp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:src="@drawable/ic_notification_icon" />
+
+        <LinearLayout
+            android:id="@+id/msgLayout"
+            android:layout_width="@dimen/_160sdp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_toEndOf="@+id/img"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/msgTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/kumbhsansregular"
+                android:text="Your booking has been cancelled by the caregiver"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/dateTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2020-11-27, 12:30 PM"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:fontFamily="@font/kumbhsansregular"
+                android:textColor="@color/ensan_cool_gray" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/newTag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New"
+            android:visibility="gone"
+            android:textSize="@dimen/_10sdp"
+            android:background="@color/ensan_orange"
+            android:textColor="@color/white"
+            android:paddingStart="@dimen/_5sdp"
+            android:paddingEnd="@dimen/_5sdp"
+            android:paddingTop="@dimen/_2sdp"
+            android:paddingBottom="@dimen/_2sdp"
+            android:layout_alignParentEnd="true"/>
+
+
+        <ImageView
+            android:id="@+id/optionsIV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_options_icon"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/newTag"
+            android:visibility="invisible"
+            android:padding="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_10sdp"/>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

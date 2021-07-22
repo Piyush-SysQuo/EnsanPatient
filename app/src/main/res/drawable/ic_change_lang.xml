@@ -1,0 +1,47 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24.608dp"
+    android:height="31.4dp"
+    android:viewportWidth="24.608"
+    android:viewportHeight="31.4">
+  <path
+      android:pathData="M2.7,1.7L14.7,1.7A1,1 0,0 1,15.7 2.7L15.7,28.7A1,1 0,0 1,14.7 29.7L2.7,29.7A1,1 0,0 1,1.7 28.7L1.7,2.7A1,1 0,0 1,2.7 1.7z"
+      android:strokeLineJoin="round"
+      android:strokeWidth="1.7"
+      android:fillColor="#fff"
+      android:strokeColor="#00000000"
+      android:strokeLineCap="round"/>
+  <path
+      android:pathData="M2.7,0.85L14.7,0.85A1.85,1.85 0,0 1,16.55 2.7L16.55,28.7A1.85,1.85 0,0 1,14.7 30.55L2.7,30.55A1.85,1.85 0,0 1,0.85 28.7L0.85,2.7A1.85,1.85 0,0 1,2.7 0.85z"
+      android:strokeLineJoin="round"
+      android:strokeWidth="1.7"
+      android:fillColor="#00000000"
+      android:strokeColor="@color/ensan_soft_blue"
+      android:strokeLineCap="round"/>
+  <path
+      android:pathData="M1.2,6.919L15.411,6.919"
+      android:strokeWidth="1.7"
+      android:fillColor="#00000000"
+      android:strokeColor="@color/ensan_soft_blue"
+      android:strokeLineCap="round"/>
+  <path
+      android:pathData="M7.529,3.698L10.969,3.698"
+      android:strokeWidth="1.7"
+      android:fillColor="#00000000"
+      android:strokeColor="@color/ensan_soft_blue"
+      android:strokeLineCap="round"/>
+  <path
+      android:pathData="M14.7,10.7h3v15h-3z"
+      android:strokeWidth="1"
+      android:fillColor="#fff"
+      android:strokeColor="#00000000"/>
+  <path
+      android:pathData="M15.2,11.2h2v14h-2z"
+      android:strokeWidth="1"
+      android:fillColor="#00000000"
+      android:strokeColor="#fff"/>
+  <path
+      android:pathData="M24.22,15.334l-4.448,-4.448a0.635,0.635 0,0 0,-1.085 0.449L18.687,13.242L14.244,13.242a0.635,0.635 0,0 0,0 1.271h5.083a0.635,0.635 0,0 0,0.635 -0.635L19.962,12.869l2.914,2.914L19.963,18.702L19.963,17.689a0.635,0.635 0,0 0,-0.635 -0.635L12.338,17.054L12.338,15.148A0.635,0.635 0,0 0,11.254 14.702L6.806,19.146a0.635,0.635 0,0 0,0 0.9l4.448,4.448a0.635,0.635 0,0 0,0.449 0.186,0.627 0.627,0 0,0 0.243,-0.048 0.635,0.635 0,0 0,0.392 -0.587L12.338,22.137h4.448a0.635,0.635 0,1 0,0 -1.271L11.703,20.866A0.635,0.635 0,0 0,11.067 21.502v1.008L8.153,19.596 11.067,16.682v1.008a0.635,0.635 0,0 0,0.635 0.635h6.989v1.906a0.635,0.635 0,0 0,1.085 0.449L24.22,16.232A0.635,0.635 0,0 0,24.22 15.334Z"
+      android:strokeWidth="0.3"
+      android:fillColor="@color/ensan_soft_blue"
+      android:strokeColor="@color/ensan_soft_blue"/>
+</vector>
